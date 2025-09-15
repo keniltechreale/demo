@@ -1,0 +1,36 @@
+interface IEnvVars {
+    PORT: string;
+    NODE_ENV: string;
+    DEBUG: string;
+    JWT_SECRET: string;
+    DATABASE_HOST: string;
+    DATABASE_USER_NAME: string;
+    DATABASE_PASSWORD: string;
+    DATABASE: string;
+    AWS_ACCESS_KEY: string;
+    AWS_SECRET_ACCESS: string;
+    AWS_REGION: string;
+    S3_BUCKET_NAME: string;
+    TWILIO_ACCOUNT_SID: string;
+    TWILIO_AUTHTOKEN: string;
+    TWILIO_PHONENUMBER: string;
+    GOOGLE_API_KEY: string;
+    EMAIL_HOST: string;
+    EMAIL_PORT: string;
+    EMAIL_SECURE: string;
+    EMAIL_SERVICE: string;
+    EMAIL_USER: string;
+    EMAIL_PASSWORD: string;
+    DRIVER_PROJECT_ID: string;
+    DRIVER_CLIENT_EMAIL: string;
+    DRIVER_PRIVATE_KEY: string;
+    CUSTOMER_PROJECT_ID: string;
+    CUSTOMER_CLIENT_EMAIL: string;
+    CUSTOMER_PRIVATE_KEY: string;
+    PROXYPAY_API_KEY: string;
+    PROXYPAY_SANDBOX: string;
+    PROXYPAY_BASE_URL_SANDBOX: string;
+    PROXYPAY_BASE_URL_PRODUCTION: string;
+}
+declare const config: IEnvVars;
+export default config;

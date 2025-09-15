@@ -1,0 +1,513 @@
+2025-09-08 12:02:50:250 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:13:37:1337 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:15:00:150 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:16:16:1616 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:22:31:2231 [31merror[39m: [31mError in connection: SequelizeConnectionError: Unknown database 'piupiu'[39m
+2025-09-08 12:35:38:3538 [31merror[39m: [31mError in connection: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306[39m
+2025-09-08 12:37:46:3746 [31merror[39m: [31mError in connection: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306[39m
+2025-09-08 12:40:58:4058 [31merror[39m: [31mError in connection: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306[39m
+2025-09-08 14:01:31:131 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.select (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[31m    at async Function.findAll (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1824:21)[39m
+[31m    at async Function.findOne (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1998:12)[39m
+2025-09-08 14:12:19:1219 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Transactions.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 14:28:52:2852 [31merror[39m: [31mPhone Number Already Exists[39m
+2025-09-08 14:28:52:2852 [31merror[39m: [31mPhone Number Already Exists[39m
+2025-09-08 14:28:52:2852 [31merror[39m: [31mPhone Number Already Exists[39m
+2025-09-08 14:29:14:2914 [31merror[39m: [31mEmail Already Exists[39m
+2025-09-08 14:29:14:2914 [31merror[39m: [31mEmail Already Exists[39m
+2025-09-08 14:29:14:2914 [31merror[39m: [31mEmail Already Exists[39m
+2025-09-08 14:30:53:3053 [31merror[39m: [31mUser not found[39m
+2025-09-08 14:30:53:3053 [31merror[39m: [31mUser not found[39m
+2025-09-08 14:30:53:3053 [31merror[39m: [31mUser not found[39m
+2025-09-08 14:38:18:3818 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:18:3818 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:18:3818 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:38:3838 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:38:3838 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:38:3838 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:42:44:4244 [31merror[39m: [31mjwt malformed[39m
+2025-09-08 14:46:01:461 [31merror[39m: [31mUnexpected field in request[39m
+2025-09-08 14:46:15:4615 [31merror[39m: [31mUnexpected field in request[39m
+2025-09-08 14:56:07:567 [31merror[39m: [31mjwt malformed[39m
+2025-09-08 15:18:30:1830 [31merror[39m: [31mdescription is not allowed to be empty[39m
+2025-09-08 15:31:26:3126 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:31:26:3126 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:31:26:3126 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:32:07:327 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:32:07:327 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:32:07:327 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:34:31:3431 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'originLocation')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:79:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 15:37:29:3729 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'originLocation')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:79:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 15:44:02:442 [31merror[39m: [31mDocuments not verified.[39m
+2025-09-08 15:44:02:442 [31merror[39m: [31mDocuments not verified.[39m
+2025-09-08 15:44:02:442 [31merror[39m: [31mDocuments not verified.[39m
+2025-09-08 15:49:59:4959 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4P287CA0100.INDP287.PROD.OUTLOOK.COM 2025-09-08T10:19:59.714Z 08DDECB3BD0824D7][39m
+2025-09-08 15:53:58:5358 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 15:54:14:5414 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:04:06:46 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async PriceManagement.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 16:07:25:725 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async PriceManagement.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 16:08:08:88 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async PriceManagement.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 16:10:33:1033 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:11:22:1122 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:14:09:149 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:15:18:1518 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:19:02:192 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:20:15:2015 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:21:40:2140 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:272:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:24:08:248 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:272:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:31:00:310 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:272:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:32:36:3236 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:33:57:3357 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:40:14:4014 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:41:15:4115 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 17:03:13:313 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.select (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[31m    at async Function.findAll (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1824:21)[39m
+2025-09-08 17:08:02:82 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:02:82 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:02:82 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:51:851 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:51:851 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:51:851 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:09:31:931 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Rating.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 17:09:39:939 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Rating.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 17:14:05:145 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.select (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[31m    at async Function.findAll (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1824:21)[39m
+2025-09-08 17:23:36:2336 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:23:36:2336 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:23:36:2336 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:34:15:3415 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:34:15:3415 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:34:15:3415 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 18:07:16:716 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.rawSelect (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1043:18)[39m
+[31m    at async Function.aggregate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2067:19)[39m
+[31m    at async Function.count (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2124:20)[39m
+2025-09-08 18:07:23:723 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.rawSelect (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1043:18)[39m
+[31m    at async Function.aggregate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2067:19)[39m
+[31m    at async Function.count (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2124:20)[39m
+2025-09-08 18:07:30:730 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.rawSelect (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1043:18)[39m
+[31m    at async Function.aggregate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2067:19)[39m
+[31m    at async Function.count (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2124:20)[39m
+2025-09-08 18:16:01:161 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Career.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 18:18:55:1855 [31merror[39m: [31mRequire Auth Token[39m
+2025-09-08 18:19:34:1934 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Career.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-09 11:27:58:2758 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Ride.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-09 12:19:44:1944 [31merror[39m: [31mBank Account details not found[39m
+2025-09-09 12:19:44:1944 [31merror[39m: [31mBank Account details not found[39m
+2025-09-09 12:19:44:1944 [31merror[39m: [31mBank Account details not found[39m
+2025-09-09 12:20:33:2033 [31merror[39m: [31mSequelizeValidationError: notNull Violation: BankAccounts.bankCode cannot be null,[39m
+[31mnotNull Violation: BankAccounts.branchCode cannot be null[39m
+[31m    at InstanceValidator._validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:78:13)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async InstanceValidator._validateAndRunHooks (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:111:7)[39m
+[31m    at async InstanceValidator.validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:93:12)[39m
+[31m    at async BankAccounts.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4077:7)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-09 12:21:27:2127 [31merror[39m: [31mSequelizeValidationError: notNull Violation: BankAccounts.branchCode cannot be null[39m
+[31m    at InstanceValidator._validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:78:13)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async InstanceValidator._validateAndRunHooks (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:111:7)[39m
+[31m    at async InstanceValidator.validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:93:12)[39m
+[31m    at async BankAccounts.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4077:7)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-09 12:24:25:2425 [31merror[39m: [31mUnknownEndpoint: Inaccessible host: `45.248.33.161' at port `9000'. This service may not be available in the `us-east-1' region.[39m
+[31m    at Request.ENOTFOUND_ERROR (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:612:46)[39m
+[31m    at Request.callListeners (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:106:20)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:78:10)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/request.js:686:14)[39m
+[31m    at error (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:443:22)[39m
+[31m    at ClientRequest.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/http/node.js:100:9)[39m
+[31m    at ClientRequest.emit (node:events:517:28)[39m
+[31m    at ClientRequest.emit (node:domain:489:12)[39m
+[31m    at Socket.socketErrorListener (node:_http_client:501:9)[39m
+[31m    at Socket.emit (node:events:517:28)[39m
+[31m    at Socket.emit (node:domain:489:12)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+2025-09-09 12:26:56:2656 [31merror[39m: [31mUnknownEndpoint: Inaccessible host: `45.248.33.161' at port `9000'. This service may not be available in the `us-east-1' region.[39m
+[31m    at Request.ENOTFOUND_ERROR (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:612:46)[39m
+[31m    at Request.callListeners (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:106:20)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:78:10)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/request.js:686:14)[39m
+[31m    at error (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:443:22)[39m
+[31m    at ClientRequest.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/http/node.js:100:9)[39m
+[31m    at ClientRequest.emit (node:events:517:28)[39m
+[31m    at ClientRequest.emit (node:domain:489:12)[39m
+[31m    at Socket.socketErrorListener (node:_http_client:501:9)[39m
+[31m    at Socket.emit (node:events:517:28)[39m
+[31m    at Socket.emit (node:domain:489:12)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+2025-09-09 12:29:14:2914 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:29:21:2921 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN2PR01CA0246.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T06:59:21.341Z 08DDEF3B62A73993][39m
+2025-09-09 12:33:04:334 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:33:10:3310 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4PR01CA0068.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:03:23.373Z 08DDEEE93D0F1671][39m
+2025-09-09 12:40:08:408 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:40:15:4015 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA5PR01CA0020.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:10:15.668Z 08DDEEE8F477D2BE][39m
+2025-09-09 12:40:50:4050 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:40:50:4050 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:40:50:4050 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:40:59:4059 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:41:06:416 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA0PR01CA0050.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:11:06.731Z 08DDEF4512E15F8E][39m
+2025-09-09 12:42:10:4210 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:42:17:4217 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MAXP287CA0003.INDP287.PROD.OUTLOOK.COM 2025-09-09T07:12:18.342Z 08DDEF010AA6664F][39m
+2025-09-09 12:58:46:5846 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:58:46:5846 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:58:46:5846 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:58:54:5854 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:59:01:591 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA5PR01CA0017.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:29:03.003Z 08DDEF0D6B1E88DB][39m
+2025-09-09 13:00:40:040 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:00:47:047 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4P287CA0014.INDP287.PROD.OUTLOOK.COM 2025-09-09T07:30:48.035Z 08DDEF2CF2394EEF][39m
+2025-09-09 13:02:13:213 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:13:213 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:13:213 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:30:230 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:30:230 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:30:230 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:40:240 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:02:47:247 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA1PR01CA0180.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:32:35.148Z 08DDEF0629B7A540][39m
+2025-09-09 13:06:53:653 [31merror[39m: [31mTransaction error: Requested transfer amount exceeds current wallet balance[39m
+2025-09-09 13:06:53:653 [31merror[39m: [31mTransaction error: Requested transfer amount exceeds current wallet balance[39m
+2025-09-09 13:06:53:653 [31merror[39m: [31mTransaction error: Requested transfer amount exceeds current wallet balance[39m
+2025-09-09 13:07:21:721 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:07:27:727 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MAXPR01CA0118.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:37:27.926Z 08DDEF4859A3D5AD][39m
+2025-09-09 13:09:04:94 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:04:94 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:04:94 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:13:913 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:13:913 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:13:913 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:19:919 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:19:919 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:19:919 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:44:944 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:44:944 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:44:944 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:12:36:1236 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:12:43:1243 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA5PR01CA0002.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:42:43.252Z 08DDEF2982FC1506][39m
+2025-09-09 13:13:05:135 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:13:05:135 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:13:05:135 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:13:19:1319 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:13:25:1325 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MAXPR01CA0118.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:43:25.473Z 08DDEF4859A3E4FB][39m
+2025-09-09 13:16:21:1621 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 13:16:41:1641 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 14:03:42:342 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 14:06:23:623 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 14:08:19:819 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 14:34:39:3439 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:34:39:3439 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:34:39:3439 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:36:06:366 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:36:06:366 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:36:06:366 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:54:28:5428 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:28:5428 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:28:5428 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:43:5443 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:43:5443 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:43:5443 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:55:35:5535 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:55:35:5535 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:55:35:5535 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 15:58:42:5842 [31merror[39m: [31mvehicleCategory is required. nightStartTime is not allowed. nightEndTime is not allowed[39m
+2025-09-09 15:59:55:5955 [31merror[39m: [31mnightStartTime is not allowed. nightEndTime is not allowed[39m
+2025-09-09 16:06:50:650 [31merror[39m: [31mPrice not found[39m
+2025-09-09 16:06:50:650 [31merror[39m: [31mPrice not found[39m
+2025-09-09 16:06:50:650 [31merror[39m: [31mPrice not found[39m
+2025-09-09 16:07:41:741 [31merror[39m: [31mNight start and end times are required[39m
+2025-09-09 16:07:41:741 [31merror[39m: [31mNight start and end times are required[39m
+2025-09-09 16:07:41:741 [31merror[39m: [31mNight start and end times are required[39m
+2025-09-10 11:38:51:3851 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async AdditionalFee.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-10 11:52:21:5221 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 11:52:21:5221 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 11:52:21:5221 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 12:03:08:38 [31merror[39m: [31mtype must be one of [VAT, PlatformFee, AdminFee]. percentage is required. rate is not allowed[39m
+2025-09-10 12:03:26:326 [31merror[39m: [31mpercentage is required. rate is not allowed[39m
+2025-09-10 12:08:16:816 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:08:16:816 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:08:16:816 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:08:28:828 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 12:08:28:828 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 12:08:28:828 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 12:10:44:1044 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:10:44:1044 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:10:44:1044 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 13:15:42:1542 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Career.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-10 14:55:06:556 [31merror[39m: [31mresume is required[39m
+2025-09-10 15:25:46:2546 [31merror[39m: [31mError sending career application reply mail: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4P287CA0082.INDP287.PROD.OUTLOOK.COM 2025-09-10T09:55:46.512Z 08DDEF42D0BFA142][39m
+2025-09-11 15:27:51:2751 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:27:51:2751 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:27:51:2751 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:28:12:2812 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:28:12:2812 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:28:12:2812 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:31:34:3134 [31merror[39m: [31minvalid signature[39m
+2025-09-11 17:45:07:457 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'originLocation')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:79:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-11 18:21:26:2126 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:21:57:2157 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:22:50:2250 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:23:14:2314 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:23:34:2334 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:23:52:2352 [31merror[39m: [31minvalid signature[39m
+2025-09-12 11:41:23:4123 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-12 11:47:25:4725 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-12 11:47:33:4733 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-12 11:57:48:5748 [31merror[39m: [31mError in user related data Error: Failed to fetch image from https://piupiu-storage.s3.us-west-2.amazonaws.comnull[39m
+2025-09-12 13:07:47:747 [31merror[39m: [31mamount is required. currency is required. type is required[39m
+2025-09-12 13:24:30:2430 [31merror[39m: [31mamount is required. currency is required. type is required[39m
+2025-09-12 13:25:41:2541 [31merror[39m: [31mamount is required. currency is required. type is required[39m
+2025-09-12 13:27:44:2744 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 13:27:44:2744 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 13:27:44:2744 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:08:36:836 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:08:36:836 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:08:36:836 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:13:07:137 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:13:07:137 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:13:07:137 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:16:59:1659 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:16:59:1659 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:16:59:1659 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:21:05:215 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:21:05:215 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:21:05:215 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:25:06:256 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:25:06:256 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:25:06:256 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:29:44:2944 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 401[39m
+2025-09-12 14:29:44:2944 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 401[39m
+2025-09-12 14:29:44:2944 [31merror[39m: [31mError: Request failed with status code 401[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:59:24:5924 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:59:24:5924 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:59:24:5924 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:06:56:656 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:06:56:656 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:06:56:656 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:11:57:1157 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:11:57:1157 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:11:57:1157 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:29:06:296 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:29:06:296 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:29:06:296 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:29:47:2947 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:29:47:2947 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:29:47:2947 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:38:44:3844 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:38:44:3844 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:38:44:3844 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m

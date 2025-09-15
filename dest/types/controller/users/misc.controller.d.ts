@@ -1,0 +1,26 @@
+import { Response } from 'express';
+import { IRequest } from '../../lib/common.interface';
+declare const _default: {
+    viewLegalContent: (req: IRequest, res: Response) => void;
+    viewFAQs: (req: IRequest, res: Response) => void;
+    viewAllCareers: (req: IRequest, res: Response) => void;
+    viewTestimonial: (req: IRequest, res: Response) => void;
+    viewBlogs: (req: IRequest, res: Response) => void;
+    viewBlogById: (req: IRequest, res: Response) => void;
+    viewReferFriends: (req: IRequest, res: Response) => void;
+    viewVehicleTypes: (req: IRequest, res: Response) => void;
+    viewCountryData: (req: IRequest, res: Response) => void;
+    addContactUsData: (req: IRequest, res: Response) => void;
+    applyForCareer: (req: IRequest, res: Response) => void;
+    checkReferalCode: (req: IRequest, res: Response) => void;
+    ViewCountryStateCity: (req: IRequest, res: Response) => void;
+    ViewVehilceCategories: (req: IRequest, res: Response) => void;
+    viewAllNotifications: (req: IRequest, res: Response) => void;
+    updateNotifications: (req: IRequest, res: Response) => void;
+    deleteAllNotifications: (req: IRequest, res: Response) => void;
+    ViewAllFeedbacks: (req: IRequest, res: Response) => void;
+    ViewFooter: (req: IRequest, res: Response) => void;
+    ViewCoupons: (req: IRequest, res: Response) => void;
+    viewGooglePopular: (req: IRequest, res: Response) => void;
+};
+export default _default;

@@ -1,0 +1,1505 @@
+2025-09-08 12:02:50:250 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:13:37:1337 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:15:00:150 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:16:16:1616 [31merror[39m: [31mError in connection: SequelizeConnectionError: Access denied for user 'root'@'localhost'[39m
+2025-09-08 12:22:31:2231 [31merror[39m: [31mError in connection: SequelizeConnectionError: Unknown database 'piupiu'[39m
+2025-09-08 12:35:38:3538 [31merror[39m: [31mError in connection: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306[39m
+2025-09-08 12:37:46:3746 [31merror[39m: [31mError in connection: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306[39m
+2025-09-08 12:40:58:4058 [31merror[39m: [31mError in connection: SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306[39m
+2025-09-08 12:49:00:490 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 12:49:00:490 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 12:49:00:490 [32minfo[39m: [32mAdmin User Created[39m
+2025-09-08 12:49:00:490 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 12:49:04:494 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 14:00:12:012 [35mhttp[39m: [35mGET / 200 31 - 4.629 ms[39m
+2025-09-08 14:00:12:012 [35mhttp[39m: [35mGET /favicon.ico 404 150 - 3.933 ms[39m
+2025-09-08 14:00:31:031 [35mhttp[39m: [35mPOST //api/v1/auth/login/customer 404 167 - 26.466 ms[39m
+2025-09-08 14:01:08:18 [35mhttp[39m: [35mPOST //api/v1/auth/register/customer 404 170 - 1.387 ms[39m
+2025-09-08 14:01:31:131 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.select (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[31m    at async Function.findAll (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1824:21)[39m
+[31m    at async Function.findOne (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1998:12)[39m
+2025-09-08 14:01:31:131 [35mhttp[39m: [35mPOST /api/v1/auth/register/customer 500 65 - 115.984 ms[39m
+2025-09-08 14:12:19:1219 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Transactions.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 14:12:19:1219 [35mhttp[39m: [35mPOST /api/v1/auth/register/customer 500 72 - 62.624 ms[39m
+2025-09-08 14:28:52:2852 [31merror[39m: [31mPhone Number Already Exists[39m
+2025-09-08 14:28:52:2852 [31merror[39m: [31mPhone Number Already Exists[39m
+2025-09-08 14:28:52:2852 [31merror[39m: [31mPhone Number Already Exists[39m
+2025-09-08 14:28:52:2852 [35mhttp[39m: [35mPOST /api/v1/auth/register/customer 400 58 - 26.144 ms[39m
+2025-09-08 14:29:14:2914 [31merror[39m: [31mEmail Already Exists[39m
+2025-09-08 14:29:14:2914 [31merror[39m: [31mEmail Already Exists[39m
+2025-09-08 14:29:14:2914 [31merror[39m: [31mEmail Already Exists[39m
+2025-09-08 14:29:14:2914 [35mhttp[39m: [35mPOST /api/v1/auth/register/customer 400 51 - 21.696 ms[39m
+2025-09-08 14:29:33:2933 [35mhttp[39m: [35mPOST /api/v1/auth/register/customer 200 97 - 90.615 ms[39m
+2025-09-08 14:30:48:3048 [35mhttp[39m: [35mPOST //api/v1/auth/login/customer 404 167 - 1.674 ms[39m
+2025-09-08 14:30:53:3053 [31merror[39m: [31mUser not found[39m
+2025-09-08 14:30:53:3053 [31merror[39m: [31mUser not found[39m
+2025-09-08 14:30:53:3053 [31merror[39m: [31mUser not found[39m
+2025-09-08 14:30:53:3053 [35mhttp[39m: [35mPOST /api/v1/auth/login/customer 400 45 - 18.236 ms[39m
+2025-09-08 14:31:03:313 [35mhttp[39m: [35mPOST /api/v1/auth/login/customer 200 102 - 35.651 ms[39m
+2025-09-08 14:31:17:3117 [35mhttp[39m: [35mPOST /api/v1/auth/verify/otp/login 200 955 - 64.408 ms[39m
+2025-09-08 14:37:20:3720 [35mhttp[39m: [35mPOST //api/v1/customer/dashboard 404 166 - 2.180 ms[39m
+2025-09-08 14:37:28:3728 [35mhttp[39m: [35mPOST /api/v1/customer/dashboard 200 95 - 31.704 ms[39m
+2025-09-08 14:37:59:3759 [35mhttp[39m: [35mPOST /api/v1/auth/register/driver 200 97 - 61.268 ms[39m
+2025-09-08 14:38:18:3818 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:18:3818 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:18:3818 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:18:3818 [35mhttp[39m: [35mPOST /api/v1/auth/verify/otp/login 400 89 - 20.875 ms[39m
+2025-09-08 14:38:38:3838 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:38:3838 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:38:3838 [31merror[39m: [31mOTP is incorrect. Please verify and enter the correct code[39m
+2025-09-08 14:38:38:3838 [35mhttp[39m: [35mPOST /api/v1/auth/verify/otp/login 400 89 - 12.119 ms[39m
+2025-09-08 14:39:35:3935 [35mhttp[39m: [35mPOST /api/v1/auth/login/driver 200 102 - 34.642 ms[39m
+2025-09-08 14:39:40:3940 [35mhttp[39m: [35mPOST /api/v1/auth/verify/otp/login 200 949 - 39.341 ms[39m
+2025-09-08 14:42:44:4244 [31merror[39m: [31mjwt malformed[39m
+2025-09-08 14:42:44:4244 [35mhttp[39m: [35mGET /api/v1/driver/documents?vehicleType=12 401 44 - 2.461 ms[39m
+2025-09-08 14:46:01:461 [31merror[39m: [31mUnexpected field in request[39m
+2025-09-08 14:46:01:461 [35mhttp[39m: [35mPOST /api/v1/vehicles 400 41 - 24.896 ms[39m
+2025-09-08 14:46:15:4615 [31merror[39m: [31mUnexpected field in request[39m
+2025-09-08 14:46:15:4615 [35mhttp[39m: [35mPOST /api/v1/vehicles 400 41 - 12.100 ms[39m
+2025-09-08 14:56:07:567 [31merror[39m: [31mjwt malformed[39m
+2025-09-08 14:56:07:567 [35mhttp[39m: [35mGET /api/v1/driver/documents?vehicleType=12 401 44 - 1.819 ms[39m
+2025-09-08 14:56:13:5613 [35mhttp[39m: [35mGET /api/v1/driver/documents?vehicleType=12 200 90 - 17.289 ms[39m
+2025-09-08 15:16:30:1630 [35mhttp[39m: [35mPOST /api/v1/admin/auth/login 200 586 - 77.741 ms[39m
+2025-09-08 15:17:04:174 [35mhttp[39m: [35mPOST /api/v1/admin/vehicle/types 200 252 - 28.587 ms[39m
+2025-09-08 15:18:30:1830 [31merror[39m: [31mdescription is not allowed to be empty[39m
+2025-09-08 15:18:30:1830 [35mhttp[39m: [35mPOST /api/v1/admin/categories/vehicle 422 69 - 126.465 ms[39m
+2025-09-08 15:18:45:1845 [35mhttp[39m: [35mPOST /api/v1/admin/categories/vehicle 200 349 - 203.646 ms[39m
+2025-09-08 15:19:14:1914 [35mhttp[39m: [35mPOST /api/v1/admin/documents 200 321 - 34.877 ms[39m
+2025-09-08 15:19:42:1942 [35mhttp[39m: [35mPOST /api/v1/admin/documents 200 317 - 27.911 ms[39m
+2025-09-08 15:19:59:1959 [35mhttp[39m: [35mGET /api/v1/driver/documents?vehicleType=12 200 90 - 21.311 ms[39m
+2025-09-08 15:20:05:205 [35mhttp[39m: [35mGET /api/v1/driver/documents?vehicleType=10 200 563 - 13.205 ms[39m
+2025-09-08 15:21:23:2123 [35mhttp[39m: [35mPOST /api/v1/vehicles 200 401 - 57.357 ms[39m
+2025-09-08 15:21:41:2141 [35mhttp[39m: [35mGET /api/v1/vehicles 200 639 - 37.841 ms[39m
+2025-09-08 15:31:26:3126 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:31:26:3126 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:31:26:3126 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:31:26:3126 [35mhttp[39m: [35mPATCH /api/v1/profile/address/2 400 48 - 25.402 ms[39m
+2025-09-08 15:31:56:3156 [35mhttp[39m: [35mPOST /api/v1/profile/address 200 285 - 26.846 ms[39m
+2025-09-08 15:32:07:327 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:32:07:327 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:32:07:327 [31merror[39m: [31mAddress not found[39m
+2025-09-08 15:32:07:327 [35mhttp[39m: [35mPATCH /api/v1/profile/address/2 400 48 - 21.187 ms[39m
+2025-09-08 15:32:15:3215 [35mhttp[39m: [35mGET /api/v1/profile/address 200 311 - 15.449 ms[39m
+2025-09-08 15:33:50:3350 [35mhttp[39m: [35mPOST /api/v1/customer/dashboard 200 95 - 14.962 ms[39m
+2025-09-08 15:34:05:345 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1041.463 ms[39m
+2025-09-08 15:34:31:3431 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'originLocation')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:79:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 15:34:31:3431 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/278 500 88 - 17.129 ms[39m
+2025-09-08 15:35:33:3533 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/277 200 137 - 388.019 ms[39m
+2025-09-08 15:36:09:369 [35mhttp[39m: [35mGET /api/v1/vehicles 200 639 - 16.173 ms[39m
+2025-09-08 15:37:29:3729 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'originLocation')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:79:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 15:37:29:3729 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/3 500 88 - 14.357 ms[39m
+2025-09-08 15:37:33:3733 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/277 200 137 - 353.393 ms[39m
+2025-09-08 15:44:02:442 [31merror[39m: [31mDocuments not verified.[39m
+2025-09-08 15:44:02:442 [31merror[39m: [31mDocuments not verified.[39m
+2025-09-08 15:44:02:442 [31merror[39m: [31mDocuments not verified.[39m
+2025-09-08 15:44:02:442 [35mhttp[39m: [35mPOST /api/v1/driver/connection/status 400 54 - 24.934 ms[39m
+2025-09-08 15:44:38:4438 [35mhttp[39m: [35mGET /api/v1/admin/documents 200 965 - 17.228 ms[39m
+2025-09-08 15:49:59:4959 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4P287CA0100.INDP287.PROD.OUTLOOK.COM 2025-09-08T10:19:59.714Z 08DDECB3BD0824D7][39m
+2025-09-08 15:49:59:4959 [35mhttp[39m: [35mPATCH /api/v1/admin/user/vehicle/22 200 1138 - 6518.268 ms[39m
+2025-09-08 15:51:42:5142 [35mhttp[39m: [35mPOST /api/v1/driver/connection/status 200 312 - 66.417 ms[39m
+2025-09-08 15:52:01:521 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/277 200 615 - 714.584 ms[39m
+2025-09-08 15:53:58:5358 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 15:53:58:5358 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 31.388 ms[39m
+2025-09-08 15:54:14:5414 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 15:54:14:5414 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 19.201 ms[39m
+2025-09-08 16:02:26:226 [35mhttp[39m: [35mGET /api/v1/admin/vehicle/types?page&limit&search&status= 200 332 - 9.399 ms[39m
+2025-09-08 16:04:06:46 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async PriceManagement.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 16:04:06:46 [35mhttp[39m: [35mPOST /api/v1/admin/prices 500 242 - 31.398 ms[39m
+2025-09-08 16:05:39:539 [35mhttp[39m: [35mGET /api/v1/admin/documents 200 965 - 15.203 ms[39m
+2025-09-08 16:07:11:711 [35mhttp[39m: [35mPOST /api/v1/admin/city 200 320 - 28.574 ms[39m
+2025-09-08 16:07:25:725 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async PriceManagement.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 16:07:25:725 [35mhttp[39m: [35mPOST /api/v1/admin/prices 500 242 - 22.855 ms[39m
+2025-09-08 16:07:49:749 [35mhttp[39m: [35mGET /api/v1/admin/city?page&limit&search&status= 200 582 - 17.616 ms[39m
+2025-09-08 16:08:08:88 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async PriceManagement.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 16:08:08:88 [35mhttp[39m: [35mPOST /api/v1/admin/prices 500 262 - 24.714 ms[39m
+2025-09-08 16:09:47:947 [35mhttp[39m: [35mPOST /api/v1/admin/prices 200 510 - 22.604 ms[39m
+2025-09-08 16:10:33:1033 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:10:33:1033 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 17.225 ms[39m
+2025-09-08 16:10:44:1044 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/277 200 615 - 758.847 ms[39m
+2025-09-08 16:11:22:1122 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:270:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:11:22:1122 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 21.336 ms[39m
+2025-09-08 16:13:57:1357 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:13:57:1357 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:13:57:1357 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:14:01:141 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:14:09:149 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:14:09:149 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 71.956 ms[39m
+2025-09-08 16:15:01:151 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:15:01:151 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:15:01:151 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:15:06:156 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:15:18:1518 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:15:18:1518 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 67.994 ms[39m
+2025-09-08 16:19:02:192 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:19:02:192 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 36.397 ms[39m
+2025-09-08 16:20:15:2015 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:271:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:20:15:2015 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 26.980 ms[39m
+2025-09-08 16:21:26:2126 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:21:26:2126 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:21:26:2126 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:21:31:2131 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:21:40:2140 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:272:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:21:40:2140 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 71.303 ms[39m
+2025-09-08 16:23:59:2359 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:23:59:2359 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:23:59:2359 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:24:04:244 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:24:08:248 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:272:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:24:08:248 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 65.876 ms[39m
+2025-09-08 16:25:21:2521 [35mhttp[39m: [35mGET /api/v1/admin/prices?page&limit&search&status= 200 1487 - 45.708 ms[39m
+2025-09-08 16:27:23:2723 [35mhttp[39m: [35mGET /api/v1/admin/city?page&limit&search&status= 200 582 - 23.812 ms[39m
+2025-09-08 16:27:34:2734 [35mhttp[39m: [35mGET /api/v1/admin/city?page&limit&search&status= 200 582 - 16.438 ms[39m
+2025-09-08 16:30:46:3046 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:30:46:3046 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:30:46:3046 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:30:51:3051 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:31:00:310 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:272:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:31:00:310 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 76.242 ms[39m
+2025-09-08 16:32:24:3224 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:32:24:3224 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:32:24:3224 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:32:29:3229 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:32:36:3236 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:32:36:3236 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 73.470 ms[39m
+2025-09-08 16:33:49:3349 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:33:49:3349 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:33:49:3349 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:33:53:3353 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:33:57:3357 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:33:57:3357 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 65.134 ms[39m
+2025-09-08 16:40:04:404 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:40:04:404 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:40:04:404 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:40:08:408 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:40:14:4014 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:40:14:4014 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 67.404 ms[39m
+2025-09-08 16:41:04:414 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:41:04:414 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:41:04:414 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:41:08:418 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:41:15:4115 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'commissionPercentage')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:273:36)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-08 16:41:15:4115 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 500 94 - 59.103 ms[39m
+2025-09-08 16:41:53:4153 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:41:53:4153 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:41:53:4153 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:41:57:4157 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:42:17:4217 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 135.483 ms[39m
+2025-09-08 16:43:32:4332 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/277 200 723 - 748.772 ms[39m
+2025-09-08 16:43:42:4342 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 55.518 ms[39m
+2025-09-08 16:44:41:4441 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 16:44:41:4441 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 16:44:41:4441 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 16:44:45:4445 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 16:44:56:4456 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 105.407 ms[39m
+2025-09-08 16:58:30:5830 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 88.825 ms[39m
+2025-09-08 17:01:42:142 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 42.963 ms[39m
+2025-09-08 17:03:13:313 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.select (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[31m    at async Function.findAll (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1824:21)[39m
+2025-09-08 17:03:13:313 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/277/accept 500 67 - 167.587 ms[39m
+2025-09-08 17:08:02:82 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:02:82 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:02:82 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:02:82 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/277/accept 400 65 - 23.026 ms[39m
+2025-09-08 17:08:51:851 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:51:851 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:51:851 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:08:51:851 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/277/accept 400 65 - 13.846 ms[39m
+2025-09-08 17:09:31:931 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Rating.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 17:09:31:931 [35mhttp[39m: [35mDELETE /api/v1/rides/277 500 67 - 71.591 ms[39m
+2025-09-08 17:09:39:939 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Rating.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 17:09:39:939 [35mhttp[39m: [35mDELETE /api/v1/rides/277 500 67 - 61.105 ms[39m
+2025-09-08 17:11:52:1152 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 17:11:52:1152 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 17:11:52:1152 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 17:11:56:1156 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 17:12:02:122 [35mhttp[39m: [35mDELETE /api/v1/rides/277 200 69 - 81.779 ms[39m
+2025-09-08 17:12:27:1227 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1286.226 ms[39m
+2025-09-08 17:12:48:1248 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/278 200 723 - 852.275 ms[39m
+2025-09-08 17:13:01:131 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 71.926 ms[39m
+2025-09-08 17:13:21:1321 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 44.739 ms[39m
+2025-09-08 17:14:05:145 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.select (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1001:12)[39m
+[31m    at async Function.findAll (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:1824:21)[39m
+2025-09-08 17:14:05:145 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/277/accept 500 67 - 118.015 ms[39m
+2025-09-08 17:21:22:2122 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 17:21:22:2122 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 17:21:22:2122 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 17:21:27:2127 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 17:21:29:2129 [35mhttp[39m: [35mGET /api/v1/rides?page=&limit=&status= 200 4199 - 64.797 ms[39m
+2025-09-08 17:23:36:2336 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:23:36:2336 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:23:36:2336 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:23:36:2336 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/277/accept 400 65 - 33.370 ms[39m
+2025-09-08 17:26:43:2643 [35mhttp[39m: [35mDELETE /api/v1/rides/277 200 69 - 76.820 ms[39m
+2025-09-08 17:26:52:2652 [35mhttp[39m: [35mDELETE /api/v1/rides/278 200 69 - 53.356 ms[39m
+2025-09-08 17:27:01:271 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1100.977 ms[39m
+2025-09-08 17:27:21:2721 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/279 200 723 - 717.783 ms[39m
+2025-09-08 17:27:50:2750 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 46.767 ms[39m
+2025-09-08 17:28:13:2813 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/277 200 70 - 39.375 ms[39m
+2025-09-08 17:28:46:2846 [35mhttp[39m: [35mGET /api/v1/rides?page=&limit=&status= 200 6181 - 35.352 ms[39m
+2025-09-08 17:29:05:295 [35mhttp[39m: [35mDELETE /api/v1/rides/279 200 69 - 46.040 ms[39m
+2025-09-08 17:29:26:2926 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 997.130 ms[39m
+2025-09-08 17:29:44:2944 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/280 200 723 - 1183.019 ms[39m
+2025-09-08 17:29:55:2955 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/280 200 70 - 42.864 ms[39m
+2025-09-08 17:30:11:3011 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/280/accept 200 70 - 69.848 ms[39m
+2025-09-08 17:30:20:3020 [35mhttp[39m: [35mGET /api/v1/rides?page=&limit=&status= 200 8267 - 34.396 ms[39m
+2025-09-08 17:30:45:3045 [35mhttp[39m: [35mGET /api/v1/rides/280 200 2160 - 39.085 ms[39m
+2025-09-08 17:34:15:3415 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:34:15:3415 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:34:15:3415 [31merror[39m: [31mRide not available for acceptance.[39m
+2025-09-08 17:34:15:3415 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/280/accept 400 65 - 10.664 ms[39m
+2025-09-08 17:34:38:3438 [35mhttp[39m: [35mDELETE /api/v1/rides/280 200 69 - 50.413 ms[39m
+2025-09-08 17:34:49:3449 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 822.962 ms[39m
+2025-09-08 17:35:12:3512 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/281 200 723 - 620.013 ms[39m
+2025-09-08 17:35:23:3523 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/281 200 70 - 46.656 ms[39m
+2025-09-08 17:35:37:3537 [32minfo[39m: [32m[Socket] Customer disconnected: 0-DyTWv1WJtkqALQAAAB[39m
+2025-09-08 17:35:49:3549 [32minfo[39m: [32m[Socket] Customer disconnected: -9EEbFyMmeRPeq0JAAAF[39m
+2025-09-08 17:36:05:365 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/281/accept 200 70 - 65.100 ms[39m
+2025-09-08 17:36:39:3639 [35mhttp[39m: [35mPOST /api/v1/driver/verify/request/281 200 78 - 45.879 ms[39m
+2025-09-08 17:37:19:3719 [35mhttp[39m: [35mPATCH /api/v1/rides/281 200 1288 - 69.145 ms[39m
+2025-09-08 17:38:25:3825 [35mhttp[39m: [35mPOST /api/v1/rides/country 404 160 - 7.586 ms[39m
+2025-09-08 18:01:36:136 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 18:01:36:136 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 18:01:36:136 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 18:01:40:140 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 18:03:56:356 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 18:03:56:356 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 18:03:56:356 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 18:04:00:40 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 18:04:42:442 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 18:04:42:442 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 18:04:42:442 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 18:04:46:446 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 18:06:55:655 [35mhttp[39m: [35mPOST /api/v1/misc/contact/us 200 264 - 75.898 ms[39m
+2025-09-08 18:07:16:716 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.rawSelect (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1043:18)[39m
+[31m    at async Function.aggregate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2067:19)[39m
+[31m    at async Function.count (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2124:20)[39m
+2025-09-08 18:07:16:716 [35mhttp[39m: [35mGET /api/v1/admin/contact_us?page=1&limit&search=h 500 80 - 102.614 ms[39m
+2025-09-08 18:07:23:723 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.rawSelect (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1043:18)[39m
+[31m    at async Function.aggregate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2067:19)[39m
+[31m    at async Function.count (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2124:20)[39m
+2025-09-08 18:07:23:723 [35mhttp[39m: [35mGET /api/v1/admin/contact_us?page=1&limit=10&search=h 500 80 - 19.972 ms[39m
+2025-09-08 18:07:30:730 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.rawSelect (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:1043:18)[39m
+[31m    at async Function.aggregate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2067:19)[39m
+[31m    at async Function.count (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2124:20)[39m
+2025-09-08 18:07:30:730 [35mhttp[39m: [35mGET /api/v1/admin/contact_us?page=1&limit=10&search=%22h%22 500 80 - 18.278 ms[39m
+2025-09-08 18:08:00:80 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 18:08:00:80 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 18:08:00:80 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 18:08:04:84 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 18:10:54:1054 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 18:10:54:1054 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 18:10:54:1054 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 18:10:58:1058 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 18:11:06:116 [35mhttp[39m: [35mGET /api/v1/admin/contact_us?page=1&limit=10&search=%22h%22 200 145 - 29.668 ms[39m
+2025-09-08 18:11:18:1118 [35mhttp[39m: [35mGET /api/v1/admin/contact_us?page=1&limit=10&search=h 200 391 - 23.941 ms[39m
+2025-09-08 18:11:49:1149 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 18:11:49:1149 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 18:11:49:1149 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 18:11:54:1154 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-08 18:16:01:161 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Career.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 18:16:01:161 [35mhttp[39m: [35mPOST /api/v1/admin/careers 500 201 - 133.984 ms[39m
+2025-09-08 18:18:55:1855 [31merror[39m: [31mRequire Auth Token[39m
+2025-09-08 18:18:55:1855 [35mhttp[39m: [35mGET /api/v1/admin/careers/1/applications 401 49 - 6.831 ms[39m
+2025-09-08 18:19:24:1924 [35mhttp[39m: [35mGET /api/v1/admin/careers/1/applications 200 151 - 44.357 ms[39m
+2025-09-08 18:19:34:1934 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Career.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-08 18:19:34:1934 [35mhttp[39m: [35mPOST /api/v1/admin/careers 500 201 - 24.646 ms[39m
+2025-09-08 18:19:38:1938 [35mhttp[39m: [35mGET /api/v1/admin/careers/1/applications 200 151 - 15.595 ms[39m
+2025-09-08 18:20:12:2012 [35mhttp[39m: [35mGET /api/v1/admin/careers/1/applications 200 151 - 10.622 ms[39m
+2025-09-08 18:35:22:3522 [35mhttp[39m: [35mGET /api/v1/admin/careers/1/applications 200 151 - 11.360 ms[39m
+2025-09-08 18:36:51:3651 [35mhttp[39m: [35mGET /api/v1/admin/careers 200 140 - 35.454 ms[39m
+2025-09-08 18:42:34:4234 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-08 18:42:34:4234 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-08 18:42:34:4234 [32minfo[39m: [32mApp data initialized[39m
+2025-09-08 18:42:38:4238 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 10:27:42:2742 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 10:27:42:2742 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 10:27:42:2742 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 10:27:47:2747 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 10:48:16:4816 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1202.600 ms[39m
+2025-09-09 10:48:36:4836 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/281 200 723 - 764.126 ms[39m
+2025-09-09 11:15:12:1512 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 361 - 188.784 ms[39m
+2025-09-09 11:16:04:164 [35mhttp[39m: [35mGET /api/v1/admin/careers/ 200 140 - 21.276 ms[39m
+2025-09-09 11:23:37:2337 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 11:23:37:2337 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 11:23:37:2337 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 11:23:42:2342 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 11:23:46:2346 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/282 200 723 - 898.791 ms[39m
+2025-09-09 11:24:49:2449 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/282/accept 200 70 - 104.378 ms[39m
+2025-09-09 11:25:03:253 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1589.573 ms[39m
+2025-09-09 11:25:13:2513 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/283 200 723 - 701.430 ms[39m
+2025-09-09 11:26:11:2611 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/283 200 70 - 55.172 ms[39m
+2025-09-09 11:26:19:2619 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/282 200 70 - 49.093 ms[39m
+2025-09-09 11:26:24:2624 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/281 200 70 - 53.547 ms[39m
+2025-09-09 11:26:34:2634 [35mhttp[39m: [35mDELETE /api/v1/rides/282 200 69 - 63.226 ms[39m
+2025-09-09 11:26:41:2641 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/283 200 70 - 44.318 ms[39m
+2025-09-09 11:27:58:2758 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Ride.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-09 11:27:58:2758 [35mhttp[39m: [35mPOST /api/v1/rides 500 104 - 757.012 ms[39m
+2025-09-09 11:47:01:471 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1145.919 ms[39m
+2025-09-09 11:47:13:4713 [35mhttp[39m: [35mPOST /api/v1/rides 200 688 - 1179.509 ms[39m
+2025-09-09 11:49:31:4931 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 11:49:31:4931 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 11:49:31:4931 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 11:49:36:4936 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 12:03:48:348 [35mhttp[39m: [35mGET /api/v1/wallets 200 271 - 67.150 ms[39m
+2025-09-09 12:04:55:455 [35mhttp[39m: [35mPOST /api/v1/wallets/transfer/3 200 71 - 117.559 ms[39m
+2025-09-09 12:16:37:1637 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 12:16:37:1637 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 12:16:37:1637 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 12:16:43:1643 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 12:19:44:1944 [31merror[39m: [31mBank Account details not found[39m
+2025-09-09 12:19:44:1944 [31merror[39m: [31mBank Account details not found[39m
+2025-09-09 12:19:44:1944 [31merror[39m: [31mBank Account details not found[39m
+2025-09-09 12:19:44:1944 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 400 61 - 75.595 ms[39m
+2025-09-09 12:20:33:2033 [31merror[39m: [31mSequelizeValidationError: notNull Violation: BankAccounts.bankCode cannot be null,[39m
+[31mnotNull Violation: BankAccounts.branchCode cannot be null[39m
+[31m    at InstanceValidator._validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:78:13)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async InstanceValidator._validateAndRunHooks (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:111:7)[39m
+[31m    at async InstanceValidator.validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:93:12)[39m
+[31m    at async BankAccounts.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4077:7)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-09 12:20:33:2033 [35mhttp[39m: [35mPOST /api/v1/bankaccounts 500 146 - 91.662 ms[39m
+2025-09-09 12:21:27:2127 [31merror[39m: [31mSequelizeValidationError: notNull Violation: BankAccounts.branchCode cannot be null[39m
+[31m    at InstanceValidator._validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:78:13)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async InstanceValidator._validateAndRunHooks (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:111:7)[39m
+[31m    at async InstanceValidator.validate (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/instance-validator.js:93:12)[39m
+[31m    at async BankAccounts.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4077:7)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-09 12:21:27:2127 [35mhttp[39m: [35mPOST /api/v1/bankaccounts 500 88 - 21.329 ms[39m
+2025-09-09 12:22:06:226 [35mhttp[39m: [35mPOST /api/v1/bankaccounts 200 499 - 56.349 ms[39m
+2025-09-09 12:22:20:2220 [35mhttp[39m: [35mGET /api/v1/bankaccounts 200 497 - 13.754 ms[39m
+2025-09-09 12:22:25:2225 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 83.614 ms[39m
+2025-09-09 12:23:08:238 [35mhttp[39m: [35mGET /api/v1/admin/cashout 200 1478 - 35.802 ms[39m
+2025-09-09 12:24:25:2425 [31merror[39m: [31mUnknownEndpoint: Inaccessible host: `45.248.33.161' at port `9000'. This service may not be available in the `us-east-1' region.[39m
+[31m    at Request.ENOTFOUND_ERROR (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:612:46)[39m
+[31m    at Request.callListeners (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:106:20)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:78:10)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/request.js:686:14)[39m
+[31m    at error (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:443:22)[39m
+[31m    at ClientRequest.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/http/node.js:100:9)[39m
+[31m    at ClientRequest.emit (node:events:517:28)[39m
+[31m    at ClientRequest.emit (node:domain:489:12)[39m
+[31m    at Socket.socketErrorListener (node:_http_client:501:9)[39m
+[31m    at Socket.emit (node:events:517:28)[39m
+[31m    at Socket.emit (node:domain:489:12)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+2025-09-09 12:24:25:2425 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/7 500 142 - 12573.128 ms[39m
+2025-09-09 12:26:21:2621 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 12:26:21:2621 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 12:26:21:2621 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 12:26:26:2626 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 12:26:56:2656 [31merror[39m: [31mUnknownEndpoint: Inaccessible host: `45.248.33.161' at port `9000'. This service may not be available in the `us-east-1' region.[39m
+[31m    at Request.ENOTFOUND_ERROR (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:612:46)[39m
+[31m    at Request.callListeners (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:106:20)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/sequential_executor.js:78:10)[39m
+[31m    at Request.emit (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/request.js:686:14)[39m
+[31m    at error (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/event_listeners.js:443:22)[39m
+[31m    at ClientRequest.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/aws-sdk/lib/http/node.js:100:9)[39m
+[31m    at ClientRequest.emit (node:events:517:28)[39m
+[31m    at ClientRequest.emit (node:domain:489:12)[39m
+[31m    at Socket.socketErrorListener (node:_http_client:501:9)[39m
+[31m    at Socket.emit (node:events:517:28)[39m
+[31m    at Socket.emit (node:domain:489:12)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m
+2025-09-09 12:26:56:2656 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/7 500 142 - 12423.659 ms[39m
+2025-09-09 12:28:35:2835 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 12:28:35:2835 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 12:28:35:2835 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 12:28:40:2840 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 12:29:06:296 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 12:29:06:296 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 12:29:06:296 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 12:29:11:2911 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 12:29:14:2914 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:29:21:2921 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN2PR01CA0246.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T06:59:21.341Z 08DDEF3B62A73993][39m
+2025-09-09 12:29:21:2921 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/7 200 367 - 6819.753 ms[39m
+2025-09-09 12:30:53:3053 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 110.914 ms[39m
+2025-09-09 12:31:30:3130 [35mhttp[39m: [35mGET /api/v1/admin/cashout 200 2864 - 41.620 ms[39m
+2025-09-09 12:33:04:334 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:33:10:3310 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4PR01CA0068.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:03:23.373Z 08DDEEE93D0F1671][39m
+2025-09-09 12:33:10:3310 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/8 200 306 - 6450.063 ms[39m
+2025-09-09 12:34:03:343 [35mhttp[39m: [35mPOST /api/v1/wallets/transfer/3 200 71 - 84.549 ms[39m
+2025-09-09 12:35:07:357 [35mhttp[39m: [35mGET /api/v1/admin/cashout 200 2865 - 14.141 ms[39m
+2025-09-09 12:35:17:3517 [35mhttp[39m: [35mGET /api/v1/admin/cashout 200 2865 - 15.102 ms[39m
+2025-09-09 12:36:16:3616 [35mhttp[39m: [35mPOST /api/v1/wallets/transfer/3 200 71 - 72.511 ms[39m
+2025-09-09 12:37:45:3745 [35mhttp[39m: [35mPOST /api/v1/wallets/transfer/3 200 71 - 68.050 ms[39m
+2025-09-09 12:39:16:3916 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 53.429 ms[39m
+2025-09-09 12:39:45:3945 [35mhttp[39m: [35mGET /api/v1/admin/cashout 200 4189 - 24.983 ms[39m
+2025-09-09 12:40:08:408 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:40:15:4015 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA5PR01CA0020.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:10:15.668Z 08DDEEE8F477D2BE][39m
+2025-09-09 12:40:15:4015 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/9 200 306 - 7103.340 ms[39m
+2025-09-09 12:40:33:4033 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 60.777 ms[39m
+2025-09-09 12:40:50:4050 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:40:50:4050 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:40:50:4050 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:40:50:4050 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/9 400 77 - 10.062 ms[39m
+2025-09-09 12:40:59:4059 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:41:06:416 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA0PR01CA0050.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:11:06.731Z 08DDEF4512E15F8E][39m
+2025-09-09 12:41:06:416 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/10 200 368 - 6940.217 ms[39m
+2025-09-09 12:41:43:4143 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 68.658 ms[39m
+2025-09-09 12:42:10:4210 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:42:17:4217 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MAXP287CA0003.INDP287.PROD.OUTLOOK.COM 2025-09-09T07:12:18.342Z 08DDEF010AA6664F][39m
+2025-09-09 12:42:17:4217 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/11 200 307 - 6893.944 ms[39m
+2025-09-09 12:58:02:582 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 12:58:02:582 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 12:58:02:582 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 12:58:07:587 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 12:58:40:5840 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 139.859 ms[39m
+2025-09-09 12:58:46:5846 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:58:46:5846 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:58:46:5846 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 12:58:46:5846 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/11 400 77 - 20.686 ms[39m
+2025-09-09 12:58:54:5854 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 12:59:01:591 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA5PR01CA0017.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:29:03.003Z 08DDEF0D6B1E88DB][39m
+2025-09-09 12:59:01:591 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/12 200 307 - 6913.616 ms[39m
+2025-09-09 13:00:24:024 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 13:00:24:024 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 13:00:24:024 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 13:00:28:028 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 13:00:32:032 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 138.094 ms[39m
+2025-09-09 13:00:40:040 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:00:47:047 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4P287CA0014.INDP287.PROD.OUTLOOK.COM 2025-09-09T07:30:48.035Z 08DDEF2CF2394EEF][39m
+2025-09-09 13:00:47:047 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/13 200 307 - 6689.290 ms[39m
+2025-09-09 13:01:52:152 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 13:01:52:152 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 13:01:52:152 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 13:01:57:157 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 13:02:13:213 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:13:213 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:13:213 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:13:213 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/13 400 77 - 41.819 ms[39m
+2025-09-09 13:02:21:221 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 138.613 ms[39m
+2025-09-09 13:02:30:230 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:30:230 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:30:230 [31merror[39m: [31mCashout Request status cannot be updated again[39m
+2025-09-09 13:02:30:230 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/13 400 77 - 13.434 ms[39m
+2025-09-09 13:02:40:240 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:02:47:247 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA1PR01CA0180.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:32:35.148Z 08DDEF0629B7A540][39m
+2025-09-09 13:02:47:247 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/14 200 307 - 6879.754 ms[39m
+2025-09-09 13:06:41:641 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 13:06:41:641 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 13:06:41:641 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 13:06:46:646 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 13:06:53:653 [31merror[39m: [31mTransaction error: Requested transfer amount exceeds current wallet balance[39m
+2025-09-09 13:06:53:653 [31merror[39m: [31mTransaction error: Requested transfer amount exceeds current wallet balance[39m
+2025-09-09 13:06:53:653 [31merror[39m: [31mTransaction error: Requested transfer amount exceeds current wallet balance[39m
+2025-09-09 13:06:53:653 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 400 106 - 54.362 ms[39m
+2025-09-09 13:07:12:712 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 101.835 ms[39m
+2025-09-09 13:07:21:721 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:07:27:727 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MAXPR01CA0118.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:37:27.926Z 08DDEF4859A3D5AD][39m
+2025-09-09 13:07:27:727 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/15 200 307 - 6655.341 ms[39m
+2025-09-09 13:08:36:836 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 13:08:36:836 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 13:08:36:836 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 13:08:41:841 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 13:08:51:851 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 139.231 ms[39m
+2025-09-09 13:09:04:94 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:04:94 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:04:94 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:04:94 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/16 400 59 - 25.242 ms[39m
+2025-09-09 13:09:13:913 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:13:913 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:13:913 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:13:913 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/16 400 59 - 21.769 ms[39m
+2025-09-09 13:09:19:919 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:19:919 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:19:919 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:19:919 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/16 400 59 - 14.237 ms[39m
+2025-09-09 13:09:29:929 [35mhttp[39m: [35mGET /api/v1/admin/cashout 200 13533 - 48.753 ms[39m
+2025-09-09 13:09:44:944 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:44:944 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:44:944 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:09:44:944 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/16 400 59 - 10.828 ms[39m
+2025-09-09 13:12:24:1224 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 13:12:24:1224 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 13:12:24:1224 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 13:12:29:1229 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 13:12:36:1236 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:12:43:1243 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MA5PR01CA0002.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:42:43.252Z 08DDEF2982FC1506][39m
+2025-09-09 13:12:43:1243 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/16 200 368 - 6898.894 ms[39m
+2025-09-09 13:12:51:1251 [35mhttp[39m: [35mPOST /api/v1/bankaccounts/cashout 200 82 - 103.758 ms[39m
+2025-09-09 13:13:05:135 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:13:05:135 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:13:05:135 [31merror[39m: [31mPayment proof image missing [39m
+2025-09-09 13:13:05:135 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/17 400 59 - 20.022 ms[39m
+2025-09-09 13:13:19:1319 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-09 13:13:25:1325 [31merror[39m: [31mError sending email: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [MAXPR01CA0118.INDPRD01.PROD.OUTLOOK.COM 2025-09-09T07:43:25.473Z 08DDEF4859A3E4FB][39m
+2025-09-09 13:13:25:1325 [35mhttp[39m: [35mPATCH /api/v1/admin/cashout/17 200 368 - 6098.081 ms[39m
+2025-09-09 13:16:21:1621 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 13:16:21:1621 [35mhttp[39m: [35mPATCH /api/v1/bankaccounts/2 422 105 - 18.881 ms[39m
+2025-09-09 13:16:41:1641 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 13:16:41:1641 [35mhttp[39m: [35mPATCH /api/v1/bankaccounts/3 422 105 - 9.591 ms[39m
+2025-09-09 14:03:42:342 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 14:03:42:342 [35mhttp[39m: [35mPATCH /api/v1/bankaccounts/3 422 105 - 10.989 ms[39m
+2025-09-09 14:04:21:421 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 14:04:22:422 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 14:04:22:422 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 14:04:27:427 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 14:06:13:613 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 14:06:13:613 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 14:06:13:613 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 14:06:18:618 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 14:06:23:623 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 14:06:23:623 [35mhttp[39m: [35mPATCH /api/v1/bankaccounts/3 422 105 - 33.559 ms[39m
+2025-09-09 14:08:12:812 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 14:08:12:812 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 14:08:12:812 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 14:08:17:817 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 14:08:19:819 [31merror[39m: [31mholderName is required. accountNumber is required. dateOfBirth is required[39m
+2025-09-09 14:08:19:819 [35mhttp[39m: [35mPATCH /api/v1/bankaccounts/3 422 105 - 29.898 ms[39m
+2025-09-09 14:10:10:1010 [35mhttp[39m: [35mPATCH /api/v1/bankaccounts/3 200 498 - 84.310 ms[39m
+2025-09-09 14:10:21:1021 [35mhttp[39m: [35mPATCH /api/v1/bankaccounts/3 200 498 - 41.013 ms[39m
+2025-09-09 14:11:09:119 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 14:11:09:119 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 14:11:09:119 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 14:11:14:1114 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 14:28:22:2822 [35mhttp[39m: [35mPOST /api/v1/emergency/contact 200 91 - 118.426 ms[39m
+2025-09-09 14:28:38:2838 [35mhttp[39m: [35mPOST /api/v1/emergency/contact/verify/otp 200 78 - 59.326 ms[39m
+2025-09-09 14:28:48:2848 [35mhttp[39m: [35mGET /api/v1/emergency/contact?page&limit&search&status=active 200 351 - 18.160 ms[39m
+2025-09-09 14:30:54:3054 [35mhttp[39m: [35mPOST /api/v1/emergency/contact 200 91 - 37.178 ms[39m
+2025-09-09 14:31:29:3129 [35mhttp[39m: [35mPOST /api/v1/emergency/contact/verify/otp 200 78 - 44.405 ms[39m
+2025-09-09 14:31:38:3138 [35mhttp[39m: [35mGET /api/v1/emergency/contact?page&limit&search&status=active 200 349 - 14.259 ms[39m
+2025-09-09 14:32:39:3239 [35mhttp[39m: [35mDELETE /api/v1/emergency/contact/66 200 81 - 24.607 ms[39m
+2025-09-09 14:33:34:3334 [35mhttp[39m: [35mPOST /api/v1/emergency/contact 200 91 - 36.705 ms[39m
+2025-09-09 14:33:39:3339 [35mhttp[39m: [35mPOST /api/v1/emergency/contact 200 91 - 40.049 ms[39m
+2025-09-09 14:33:55:3355 [35mhttp[39m: [35mDELETE /api/v1/emergency/contact/69 200 81 - 31.122 ms[39m
+2025-09-09 14:34:39:3439 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:34:39:3439 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:34:39:3439 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:34:39:3439 [35mhttp[39m: [35mPATCH /api/v1/emergency/contact/3 400 58 - 13.175 ms[39m
+2025-09-09 14:36:06:366 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:36:06:366 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:36:06:366 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:36:06:366 [35mhttp[39m: [35mPATCH /api/v1/emergency/contact/66 400 58 - 15.194 ms[39m
+2025-09-09 14:36:18:3618 [35mhttp[39m: [35mPATCH /api/v1/emergency/contact/67 200 334 - 31.014 ms[39m
+2025-09-09 14:53:53:5353 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 14:53:53:5353 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 14:53:53:5353 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 14:53:58:5358 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 14:54:28:5428 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:28:5428 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:28:5428 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:28:5428 [35mhttp[39m: [35mDELETE /api/v1/emergency/contact/68 400 55 - 67.494 ms[39m
+2025-09-09 14:54:43:5443 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:43:5443 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:43:5443 [31merror[39m: [31mYou are not unauthorized[39m
+2025-09-09 14:54:43:5443 [35mhttp[39m: [35mPATCH /api/v1/emergency/contact/68 400 55 - 34.470 ms[39m
+2025-09-09 14:55:04:554 [35mhttp[39m: [35mDELETE /api/v1/emergency/contact/68 200 81 - 28.716 ms[39m
+2025-09-09 14:55:25:5525 [35mhttp[39m: [35mPOST /api/v1/emergency/contact 200 91 - 62.543 ms[39m
+2025-09-09 14:55:35:5535 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:55:35:5535 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:55:35:5535 [31merror[39m: [31mEmergency Contact not found[39m
+2025-09-09 14:55:35:5535 [35mhttp[39m: [35mPATCH /api/v1/emergency/contact/68 400 58 - 13.274 ms[39m
+2025-09-09 14:55:48:5548 [35mhttp[39m: [35mPATCH /api/v1/emergency/contact/70 200 335 - 42.615 ms[39m
+2025-09-09 14:56:01:561 [35mhttp[39m: [35mDELETE /api/v1/emergency/contact/70 200 81 - 26.921 ms[39m
+2025-09-09 15:22:24:2224 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 15:22:24:2224 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 15:22:24:2224 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 15:22:30:2230 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 15:26:53:2653 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 15:26:53:2653 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 15:26:53:2653 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 15:26:58:2658 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 15:29:02:292 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 15:29:02:292 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 15:29:02:292 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 15:29:07:297 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 15:53:27:5327 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 15:53:27:5327 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 15:53:27:5327 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 15:53:32:5332 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 15:57:11:5711 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 15:57:11:5711 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 15:57:11:5711 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 15:57:16:5716 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 15:58:42:5842 [31merror[39m: [31mvehicleCategory is required. nightStartTime is not allowed. nightEndTime is not allowed[39m
+2025-09-09 15:58:42:5842 [35mhttp[39m: [35mPATCH /api/v1/admin/prices/:price_id 422 118 - 31.983 ms[39m
+2025-09-09 15:59:55:5955 [31merror[39m: [31mnightStartTime is not allowed. nightEndTime is not allowed[39m
+2025-09-09 15:59:55:5955 [35mhttp[39m: [35mPATCH /api/v1/admin/prices/:price_id 422 89 - 8.297 ms[39m
+2025-09-09 16:06:31:631 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 16:06:31:631 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 16:06:31:631 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 16:06:36:636 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 16:06:50:650 [31merror[39m: [31mPrice not found[39m
+2025-09-09 16:06:50:650 [31merror[39m: [31mPrice not found[39m
+2025-09-09 16:06:50:650 [31merror[39m: [31mPrice not found[39m
+2025-09-09 16:06:50:650 [35mhttp[39m: [35mPATCH /api/v1/admin/prices/:price_id 400 46 - 40.539 ms[39m
+2025-09-09 16:07:05:75 [35mhttp[39m: [35mPATCH /api/v1/admin/prices/18 200 675 - 54.664 ms[39m
+2025-09-09 16:07:26:726 [35mhttp[39m: [35mPATCH /api/v1/admin/prices/18 200 674 - 37.288 ms[39m
+2025-09-09 16:07:41:741 [31merror[39m: [31mNight start and end times are required[39m
+2025-09-09 16:07:41:741 [31merror[39m: [31mNight start and end times are required[39m
+2025-09-09 16:07:41:741 [31merror[39m: [31mNight start and end times are required[39m
+2025-09-09 16:07:41:741 [35mhttp[39m: [35mPATCH /api/v1/admin/prices/18 400 69 - 12.140 ms[39m
+2025-09-09 16:09:07:97 [35mhttp[39m: [35mGET /api/v1/admin/city?page&limit&search&status= 200 582 - 44.455 ms[39m
+2025-09-09 16:09:53:953 [35mhttp[39m: [35mGET /api/v1/admin/prices?page&limit&search&status= 200 1540 - 39.003 ms[39m
+2025-09-09 16:39:58:3958 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 16:39:58:3958 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 16:39:58:3958 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 16:40:03:403 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 16:43:48:4348 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1355.416 ms[39m
+2025-09-09 16:44:28:4428 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/286 200 723 - 839.150 ms[39m
+2025-09-09 16:49:57:4957 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 16:49:57:4957 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 16:49:57:4957 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 16:50:01:501 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 16:50:13:5013 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/286 200 723 - 689.321 ms[39m
+2025-09-09 16:51:07:517 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 16:51:07:517 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 16:51:07:517 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 16:51:12:5112 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 16:51:18:5118 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/286 200 723 - 636.982 ms[39m
+2025-09-09 17:00:23:023 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:00:23:023 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:00:23:023 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:00:28:028 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:00:44:044 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/286 200 723 - 749.630 ms[39m
+2025-09-09 17:02:57:257 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1432.280 ms[39m
+2025-09-09 17:03:15:315 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/287 200 723 - 696.729 ms[39m
+2025-09-09 17:03:27:327 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/287 200 723 - 669.930 ms[39m
+2025-09-09 17:04:27:427 [35mhttp[39m: [35mPOST /api/v1/rides 200 688 - 872.059 ms[39m
+2025-09-09 17:04:36:436 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/288 200 723 - 666.308 ms[39m
+2025-09-09 17:05:38:538 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 826.190 ms[39m
+2025-09-09 17:05:49:549 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 697.134 ms[39m
+2025-09-09 17:07:00:70 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:07:00:70 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:07:00:70 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:07:05:75 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:07:44:744 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:07:44:744 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:07:44:744 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:07:49:749 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:07:55:755 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 686.837 ms[39m
+2025-09-09 17:09:27:927 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:09:27:927 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:09:27:927 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:09:32:932 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:09:36:936 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 818.873 ms[39m
+2025-09-09 17:10:59:1059 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:10:59:1059 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:10:59:1059 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:11:04:114 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:11:12:1112 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 763.212 ms[39m
+2025-09-09 17:12:01:121 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:12:01:121 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:12:01:121 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:12:06:126 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:12:25:1225 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 1124.279 ms[39m
+2025-09-09 17:14:23:1423 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 1072.986 ms[39m
+2025-09-09 17:16:06:166 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:16:06:166 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:16:06:166 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:16:11:1611 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:16:27:1627 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 754.594 ms[39m
+2025-09-09 17:19:47:1947 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:19:47:1947 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:19:47:1947 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:19:52:1952 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:19:58:1958 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 907.572 ms[39m
+2025-09-09 17:21:01:211 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:21:01:211 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:21:31:2131 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:21:31:2131 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:21:31:2131 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:21:35:2135 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:21:39:2139 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 939.283 ms[39m
+2025-09-09 17:34:29:3429 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:34:29:3429 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:34:29:3429 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:34:34:3434 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:34:38:3438 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 137 - 948.789 ms[39m
+2025-09-09 17:39:14:3914 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:39:14:3914 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:39:14:3914 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:39:20:3920 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:39:23:3923 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 723 - 650.203 ms[39m
+2025-09-09 17:42:44:4244 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:42:44:4244 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:42:44:4244 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:42:49:4249 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:42:55:4255 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 722 - 702.815 ms[39m
+2025-09-09 17:44:04:444 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:44:04:444 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:44:04:444 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:44:09:449 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:46:47:4647 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:46:47:4647 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:46:47:4647 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:46:52:4652 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:47:35:4735 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:47:35:4735 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:47:35:4735 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:47:40:4740 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:53:03:533 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 17:53:03:533 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 17:53:03:533 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 17:53:08:538 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 17:53:49:5349 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/289 200 722 - 1035.697 ms[39m
+2025-09-09 17:54:21:5421 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/289 200 70 - 86.052 ms[39m
+2025-09-09 17:59:21:5921 [35mhttp[39m: [35mPOST /api/v1/driver/connection/status 200 354 - 65.230 ms[39m
+2025-09-09 17:59:28:5928 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/289 200 70 - 53.723 ms[39m
+2025-09-09 17:59:47:5947 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/289/accept 200 70 - 85.989 ms[39m
+2025-09-09 17:59:51:5951 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/289 200 70 - 53.405 ms[39m
+2025-09-09 17:59:54:5954 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/289 200 70 - 68.432 ms[39m
+2025-09-09 18:00:01:01 [35mhttp[39m: [35mGET /api/v1/rides?page=&limit=&status= 200 26437 - 60.598 ms[39m
+2025-09-09 18:12:45:1245 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 18:12:46:1246 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 18:12:46:1246 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 18:12:51:1251 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 18:13:38:1338 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 18:13:38:1338 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 18:13:38:1338 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 18:13:43:1343 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 18:15:04:154 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 18:15:04:154 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 18:15:04:154 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 18:15:09:159 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 18:24:40:2440 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 18:24:40:2440 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 18:24:40:2440 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 18:24:45:2445 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-09 18:37:51:3751 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-09 18:37:51:3751 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-09 18:37:51:3751 [32minfo[39m: [32mApp data initialized[39m
+2025-09-09 18:37:56:3756 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 11:34:24:3424 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 11:34:24:3424 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 11:34:24:3424 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 11:34:29:3429 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 11:34:41:3441 [35mhttp[39m: [35mGET /api/v1/admin/additionalfees 404 166 - 43.994 ms[39m
+2025-09-10 11:34:58:3458 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 404 167 - 2.793 ms[39m
+2025-09-10 11:35:40:3540 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 404 167 - 3.164 ms[39m
+2025-09-10 11:36:55:3655 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees/ 404 168 - 1.782 ms[39m
+2025-09-10 11:37:00:370 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 404 167 - 2.121 ms[39m
+2025-09-10 11:37:22:3722 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 11:37:22:3722 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 11:37:22:3722 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 11:37:26:3726 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 11:38:44:3844 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 11:38:44:3844 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 11:38:44:3844 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 11:38:48:3848 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 11:38:51:3851 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async AdditionalFee.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-10 11:38:51:3851 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 500 75 - 104.037 ms[39m
+2025-09-10 11:42:48:4248 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 200 247 - 41.603 ms[39m
+2025-09-10 11:42:59:4259 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 200 247 - 24.822 ms[39m
+2025-09-10 11:51:40:5140 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 11:51:40:5140 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 11:51:40:5140 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 11:51:44:5144 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 11:52:03:523 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 11:52:03:523 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 11:52:03:523 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 11:52:08:528 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 11:52:21:5221 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 11:52:21:5221 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 11:52:21:5221 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 11:52:21:5221 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 400 60 - 49.419 ms[39m
+2025-09-10 11:54:38:5438 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 11:54:39:5439 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 11:54:39:5439 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 11:54:43:5443 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 11:55:20:5520 [35mhttp[39m: [35mGET /admin/additionalfees?page=1&limit=10 404 159 - 8.861 ms[39m
+2025-09-10 11:55:58:5558 [35mhttp[39m: [35mGET /admin/additionalfees 404 159 - 2.484 ms[39m
+2025-09-10 11:56:28:5628 [35mhttp[39m: [35mGET /api/v1/admin/additionalfees 200 304 - 44.642 ms[39m
+2025-09-10 11:56:49:5649 [35mhttp[39m: [35mGET /api/v1/admin/additionalfees?page=1&limit=10 200 304 - 17.342 ms[39m
+2025-09-10 12:03:08:38 [31merror[39m: [31mtype must be one of [VAT, PlatformFee, AdminFee]. percentage is required. rate is not allowed[39m
+2025-09-10 12:03:08:38 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 422 124 - 29.930 ms[39m
+2025-09-10 12:03:26:326 [31merror[39m: [31mpercentage is required. rate is not allowed[39m
+2025-09-10 12:03:26:326 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 422 74 - 3.379 ms[39m
+2025-09-10 12:03:40:340 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 200 255 - 56.530 ms[39m
+2025-09-10 12:04:03:43 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 200 252 - 25.450 ms[39m
+2025-09-10 12:04:09:49 [35mhttp[39m: [35mGET /api/v1/admin/additionalfees?page=1&limit=10 200 629 - 14.464 ms[39m
+2025-09-10 12:07:38:738 [35mhttp[39m: [35mGET /api/v1/admin/additionalfees 200 629 - 15.144 ms[39m
+2025-09-10 12:07:50:750 [35mhttp[39m: [35mPATCH /api/v1/admin/additionalfees 404 168 - 0.995 ms[39m
+2025-09-10 12:08:16:816 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:08:16:816 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:08:16:816 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:08:16:816 [35mhttp[39m: [35mPATCH /api/v1/admin/additionalfees/:id 400 55 - 17.549 ms[39m
+2025-09-10 12:08:28:828 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 12:08:28:828 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 12:08:28:828 [31merror[39m: [31mAdditional Fee already exists[39m
+2025-09-10 12:08:28:828 [35mhttp[39m: [35mPATCH /api/v1/admin/additionalfees/4 400 60 - 22.116 ms[39m
+2025-09-10 12:08:33:833 [35mhttp[39m: [35mPATCH /api/v1/admin/additionalfees/3 200 259 - 65.226 ms[39m
+2025-09-10 12:09:14:914 [35mhttp[39m: [35mDELETE /api/v1/admin/additionalfees/3 200 78 - 31.697 ms[39m
+2025-09-10 12:09:50:950 [35mhttp[39m: [35mPOST /api/v1/admin/additionalfees 200 257 - 21.934 ms[39m
+2025-09-10 12:09:54:954 [35mhttp[39m: [35mGET /api/v1/admin/additionalfees?page=1&limit=10 200 631 - 12.346 ms[39m
+2025-09-10 12:10:44:1044 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:10:44:1044 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:10:44:1044 [31merror[39m: [31mAdditional Fee not found[39m
+2025-09-10 12:10:44:1044 [35mhttp[39m: [35mPATCH /api/v1/admin/additionalfees/3 400 55 - 14.763 ms[39m
+2025-09-10 12:10:54:1054 [35mhttp[39m: [35mPATCH /api/v1/admin/additionalfees/5 200 262 - 36.925 ms[39m
+2025-09-10 12:11:10:1110 [35mhttp[39m: [35mGET /api/v1/admin/additionalfees?page=1&limit=10 200 634 - 11.483 ms[39m
+2025-09-10 12:33:58:3358 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 12:33:58:3358 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 12:33:58:3358 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 12:34:02:342 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 12:34:22:3422 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1138.009 ms[39m
+2025-09-10 12:34:45:3445 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/290 200 722 - 929.822 ms[39m
+2025-09-10 12:35:27:3527 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/290 200 70 - 77.277 ms[39m
+2025-09-10 12:43:01:431 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 12:43:01:431 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 12:43:01:431 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 12:43:06:436 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 12:44:55:4455 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 12:44:55:4455 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 12:44:55:4455 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 12:44:59:4459 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 12:45:06:456 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/290 200 722 - 1109.879 ms[39m
+2025-09-10 12:47:19:4719 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 12:47:19:4719 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 12:47:19:4719 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 12:47:23:4723 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 12:47:27:4727 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/290 200 754 - 825.152 ms[39m
+2025-09-10 12:55:43:5543 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/290/accept 200 70 - 107.797 ms[39m
+2025-09-10 12:56:28:5628 [35mhttp[39m: [35mPOST /api/v1/driver/verify/request/290 200 78 - 80.037 ms[39m
+2025-09-10 12:56:43:5643 [35mhttp[39m: [35mPATCH /api/v1/rides/290 200 1290 - 89.912 ms[39m
+2025-09-10 12:57:17:5717 [35mhttp[39m: [35mGET /api/v1/rides?page=&limit=&status= 200 12656 - 41.338 ms[39m
+2025-09-10 13:10:52:1052 [35mhttp[39m: [35mGET /api/v1/admin/careers 200 140 - 20.490 ms[39m
+2025-09-10 13:11:03:113 [35mhttp[39m: [35mGET /api/v1/admin/careers/ 200 140 - 13.082 ms[39m
+2025-09-10 13:15:42:1542 [31merror[39m: [31mError[39m
+[31m    at Query.run (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/mysql/query.js:46:25)[39m
+[31m    at /home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/sequelize.js:650:28[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async MySQLQueryInterface.insert (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/dialects/abstract/query-interface.js:795:21)[39m
+[31m    at async Career.save (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:4154:35)[39m
+[31m    at async Function.create (/home/tech-real/kenil-Work/PiuPiu-Backend/node_modules/sequelize/src/model.js:2305:12)[39m
+2025-09-10 13:15:42:1542 [35mhttp[39m: [35mPOST /api/v1/admin/careers 500 201 - 79.163 ms[39m
+2025-09-10 13:19:14:1914 [35mhttp[39m: [35mPOST /api/v1/admin/careers 200 5312 - 29.498 ms[39m
+2025-09-10 13:20:15:2015 [35mhttp[39m: [35mGET /api/v1/admin/careers/ 200 5742 - 11.729 ms[39m
+2025-09-10 13:21:54:2154 [35mhttp[39m: [35mGET /api/v1/admin/28/applications 404 167 - 4.263 ms[39m
+2025-09-10 13:22:11:2211 [35mhttp[39m: [35mGET /api/v1/admin/6/applications 404 166 - 1.400 ms[39m
+2025-09-10 13:22:39:2239 [35mhttp[39m: [35mGET /api/v1/admin/careers/:careers_id/applications 200 151 - 15.168 ms[39m
+2025-09-10 13:22:55:2255 [35mhttp[39m: [35mGET /api/v1/admin/careers/:careers_id/applications 200 151 - 8.140 ms[39m
+2025-09-10 14:11:17:1117 [35mhttp[39m: [35mGET /api/v1/admin/careers/:careers_id/applications 200 151 - 14.812 ms[39m
+2025-09-10 14:11:24:1124 [35mhttp[39m: [35mGET /api/v1/admin/careers/6/applications 200 428 - 14.325 ms[39m
+2025-09-10 14:37:09:379 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 14:37:09:379 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 14:37:09:379 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 14:37:14:3714 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 14:48:01:481 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 14:48:01:481 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 14:48:01:481 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 14:48:05:485 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 14:48:25:4825 [35mhttp[39m: [35mGET /api/v1/admin/careers/applications 200 428 - 29.170 ms[39m
+2025-09-10 14:48:48:4848 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 14:48:48:4848 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 14:48:48:4848 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 14:48:53:4853 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 14:52:49:5249 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 14:52:49:5249 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 14:52:49:5249 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 14:52:53:5253 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 14:55:06:556 [31merror[39m: [31mresume is required[39m
+2025-09-10 14:55:06:556 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 422 49 - 30.424 ms[39m
+2025-09-10 14:55:35:5535 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 376 - 220.787 ms[39m
+2025-09-10 14:56:35:5635 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 14:56:35:5635 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 14:56:35:5635 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 14:56:39:5639 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 14:57:55:5755 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 377 - 197.098 ms[39m
+2025-09-10 15:24:01:241 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 15:24:01:241 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 15:24:01:241 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 15:24:05:245 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 15:25:46:2546 [31merror[39m: [31mError sending career application reply mail: Invalid login: 535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [PN4P287CA0082.INDP287.PROD.OUTLOOK.COM 2025-09-10T09:55:46.512Z 08DDEF42D0BFA142][39m
+2025-09-10 15:25:46:2546 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 383 - 6715.701 ms[39m
+2025-09-10 15:29:15:2915 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 15:29:15:2915 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 15:29:15:2915 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 15:29:19:2919 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 15:29:47:2947 [32minfo[39m: [32mCareer application reply mail sent successfully[39m
+2025-09-10 15:29:47:2947 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 383 - 4330.496 ms[39m
+2025-09-10 15:35:15:3515 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 15:35:15:3515 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 15:35:15:3515 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 15:35:19:3519 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 15:37:18:3718 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 15:37:18:3718 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 15:37:18:3718 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 15:37:22:3722 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 15:37:34:3734 [32minfo[39m: [32mCareer application reply mail sent successfully[39m
+2025-09-10 15:37:34:3734 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 382 - 3824.193 ms[39m
+2025-09-10 15:38:31:3831 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 15:38:31:3831 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 15:38:31:3831 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 15:38:36:3836 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 15:38:43:3843 [32minfo[39m: [32mCareer application reply mail sent successfully[39m
+2025-09-10 15:38:43:3843 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 382 - 4272.879 ms[39m
+2025-09-10 15:40:10:4010 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 15:40:10:4010 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 15:40:10:4010 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 15:40:14:4014 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-10 15:40:22:4022 [32minfo[39m: [32mCareer application reply mail sent successfully[39m
+2025-09-10 15:40:22:4022 [35mhttp[39m: [35mPOST /api/v1/misc/career/apply 200 382 - 3635.875 ms[39m
+2025-09-10 16:22:47:2247 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-10 16:22:47:2247 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-10 16:22:47:2247 [32minfo[39m: [32mApp data initialized[39m
+2025-09-10 16:22:52:2252 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 12:49:29:4929 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 12:49:29:4929 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 12:49:29:4929 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 12:49:34:4934 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 12:51:58:5158 [35mhttp[39m: [35mPOST /api/v1/auth/register/customer 200 97 - 217.496 ms[39m
+2025-09-11 14:21:09:219 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 14:21:09:219 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 14:21:09:219 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 14:21:13:2113 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 14:21:23:2123 [35mhttp[39m: [35mPOST /api/v1/auth/register/customer 200 97 - 118.959 ms[39m
+2025-09-11 14:21:52:2152 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 14:21:52:2152 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 14:21:52:2152 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 14:21:56:2156 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 14:27:46:2746 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 14:27:46:2746 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 14:27:46:2746 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 14:27:50:2750 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 14:32:19:3219 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 14:32:19:3219 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 14:32:19:3219 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 14:32:23:3223 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 14:37:20:3720 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 14:37:20:3720 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 14:37:20:3720 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 14:37:25:3725 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 15:02:41:241 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 15:02:41:241 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 15:02:41:241 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 15:02:45:245 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 15:27:51:2751 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:27:51:2751 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:27:51:2751 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:27:51:2751 [35mhttp[39m: [35mPOST /api/v1/auth/verify/otp/login 400 45 - 50.917 ms[39m
+2025-09-11 15:28:12:2812 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:28:12:2812 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:28:12:2812 [31merror[39m: [31mUser not found[39m
+2025-09-11 15:28:12:2812 [35mhttp[39m: [35mPOST /api/v1/auth/verify/otp/login 400 45 - 19.976 ms[39m
+2025-09-11 15:31:34:3134 [31merror[39m: [31minvalid signature[39m
+2025-09-11 15:31:34:3134 [35mhttp[39m: [35mGET /api/v1/driver/documents 401 48 - 8.501 ms[39m
+2025-09-11 16:18:19:1819 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 16:18:19:1819 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 16:18:19:1819 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 16:18:23:1823 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 16:36:56:3656 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 16:36:56:3656 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 16:36:56:3656 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 16:37:00:370 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 16:37:04:374 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1237.964 ms[39m
+2025-09-11 16:37:40:3740 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/291 200 754 - 825.571 ms[39m
+2025-09-11 16:50:30:5030 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 16:50:30:5030 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 16:50:30:5030 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 16:50:34:5034 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 16:57:56:5756 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 16:57:56:5756 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 16:58:15:5815 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 16:58:15:5815 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 16:58:15:5815 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 16:58:19:5819 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 16:58:22:5822 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/291 200 744 - 829.439 ms[39m
+2025-09-11 17:15:26:1526 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/291 200 70 - 88.421 ms[39m
+2025-09-11 17:17:06:176 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 17:17:06:176 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 17:17:06:176 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 17:17:10:1710 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 17:20:10:2010 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 17:20:10:2010 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 17:20:10:2010 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 17:20:14:2014 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 17:36:18:3618 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 17:36:18:3618 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 17:36:18:3618 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 17:36:23:3623 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 17:39:04:394 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 17:39:04:394 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 17:39:04:394 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 17:39:09:399 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 17:43:49:4349 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 17:43:49:4349 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 17:43:49:4349 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 17:43:53:4353 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 17:44:57:4457 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/291 200 744 - 1293.311 ms[39m
+2025-09-11 17:45:07:457 [31merror[39m: [31mTypeError: Cannot read properties of null (reading 'originLocation')[39m
+[31m    at CustomerService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/customer.service.ts:79:31)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/customer.service.js:28:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-11 17:45:07:457 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/292 500 88 - 26.829 ms[39m
+2025-09-11 17:45:17:4517 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1310.819 ms[39m
+2025-09-11 17:45:22:4522 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/292 200 744 - 1101.186 ms[39m
+2025-09-11 17:45:49:4549 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/292 200 70 - 80.215 ms[39m
+2025-09-11 17:53:13:5313 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 17:53:13:5313 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 17:53:13:5313 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 17:53:18:5318 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 18:21:10:2110 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 18:21:10:2110 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 18:21:10:2110 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 18:21:14:2114 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 18:21:26:2126 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:21:26:2126 [35mhttp[39m: [35mPATCH /api/v1/rides/292 401 48 - 23.422 ms[39m
+2025-09-11 18:21:57:2157 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:21:57:2157 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/292/accept 401 48 - 4.334 ms[39m
+2025-09-11 18:22:50:2250 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:22:50:2250 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/292/accept 401 48 - 6.476 ms[39m
+2025-09-11 18:23:14:2314 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:23:14:2314 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/292/accept 401 48 - 4.254 ms[39m
+2025-09-11 18:23:34:2334 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:23:34:2334 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/292/accept 401 48 - 3.613 ms[39m
+2025-09-11 18:23:52:2352 [31merror[39m: [31minvalid signature[39m
+2025-09-11 18:23:52:2352 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/291/accept 401 48 - 4.269 ms[39m
+2025-09-11 18:24:17:2417 [35mhttp[39m: [35mPOST /api/v1/auth/login/driver 200 102 - 100.546 ms[39m
+2025-09-11 18:26:51:2651 [35mhttp[39m: [35mPOST /api/v1/auth/verify/otp/login 200 973 - 73.727 ms[39m
+2025-09-11 18:27:15:2715 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/291/accept 200 70 - 106.952 ms[39m
+2025-09-11 18:27:45:2745 [35mhttp[39m: [35mPOST /api/v1/driver/verify/request/291 200 78 - 68.504 ms[39m
+2025-09-11 18:27:55:2755 [35mhttp[39m: [35mPATCH /api/v1/rides/291 200 1290 - 86.870 ms[39m
+2025-09-11 18:35:55:3555 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 18:35:55:3555 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 18:35:55:3555 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 18:35:59:3559 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-11 18:36:17:3617 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/292/accept 200 70 - 128.322 ms[39m
+2025-09-11 18:37:30:3730 [35mhttp[39m: [35mPOST /api/v1/driver/verify/request/292 200 78 - 86.135 ms[39m
+2025-09-11 18:37:38:3738 [35mhttp[39m: [35mPATCH /api/v1/rides/292 200 1290 - 96.916 ms[39m
+2025-09-11 18:40:25:4025 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1174.713 ms[39m
+2025-09-11 18:40:35:4035 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/293 200 744 - 834.093 ms[39m
+2025-09-11 18:40:41:4041 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/292 200 70 - 72.075 ms[39m
+2025-09-11 18:40:47:4047 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/293 200 70 - 62.415 ms[39m
+2025-09-11 18:40:55:4055 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/293/accept 200 70 - 72.960 ms[39m
+2025-09-11 18:41:04:414 [35mhttp[39m: [35mPOST /api/v1/driver/verify/request/293 200 78 - 51.297 ms[39m
+2025-09-11 18:41:12:4112 [35mhttp[39m: [35mPATCH /api/v1/rides/293 200 1290 - 66.070 ms[39m
+2025-09-11 18:51:35:5135 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-11 18:51:35:5135 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-11 18:51:35:5135 [32minfo[39m: [32mApp data initialized[39m
+2025-09-11 18:51:40:5140 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 11:26:53:2653 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 11:26:53:2653 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 11:26:53:2653 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 11:26:58:2658 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 11:37:31:3731 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 11:37:31:3731 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 11:37:31:3731 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 11:37:35:3735 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 11:40:13:4013 [35mhttp[39m: [35mPATCH /api/v1/rides/293 200 1396 - 189.050 ms[39m
+2025-09-12 11:41:23:4123 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-12 11:41:23:4123 [35mhttp[39m: [35mPATCH /api/v1/rides/293 200 1396 - 104.299 ms[39m
+2025-09-12 11:41:53:4153 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1082.334 ms[39m
+2025-09-12 11:42:02:422 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/294 200 744 - 694.084 ms[39m
+2025-09-12 11:42:08:428 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/294 200 70 - 82.421 ms[39m
+2025-09-12 11:42:18:4218 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/294/accept 200 70 - 106.060 ms[39m
+2025-09-12 11:42:27:4227 [35mhttp[39m: [35mPOST /api/v1/driver/verify/request/294 200 78 - 67.407 ms[39m
+2025-09-12 11:42:35:4235 [35mhttp[39m: [35mPATCH /api/v1/rides/294 200 1290 - 91.058 ms[39m
+2025-09-12 11:46:37:4637 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 11:46:37:4637 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 11:46:37:4637 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 11:46:42:4642 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 11:47:25:4725 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-12 11:47:25:4725 [35mhttp[39m: [35mPATCH /api/v1/rides/293 200 1396 - 245.311 ms[39m
+2025-09-12 11:47:33:4733 [31merror[39m: [31merror : Error sending FCM Notifications Exactly one of topic, token or condition is required[39m
+2025-09-12 11:47:33:4733 [35mhttp[39m: [35mPATCH /api/v1/rides/294 200 1290 - 94.996 ms[39m
+2025-09-12 11:54:40:5440 [35mhttp[39m: [35mPATCH /api/v1/rides/294 200 1290 - 120.273 ms[39m
+2025-09-12 11:56:15:5615 [35mhttp[39m: [35mPATCH /api/v1/rides/294 200 1290 - 65.329 ms[39m
+2025-09-12 11:56:53:5653 [35mhttp[39m: [35mPATCH /api/v1/rides/294 200 1289 - 49.906 ms[39m
+2025-09-12 11:57:48:5748 [31merror[39m: [31mError in user related data Error: Failed to fetch image from https://piupiu-storage.s3.us-west-2.amazonaws.comnull[39m
+2025-09-12 11:57:48:5748 [35mhttp[39m: [35mPATCH /api/v1/rides/294 200 1311 - 396.112 ms[39m
+2025-09-12 12:02:18:218 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 12:02:18:218 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 12:02:19:219 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 12:02:23:223 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:02:29:229 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:02:29:229 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:02:29:229 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:02:34:234 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:03:56:356 [35mhttp[39m: [35mPOST /api/v1/rides 200 689 - 1319.287 ms[39m
+2025-09-12 13:04:07:47 [35mhttp[39m: [35mPOST /api/v1/customer/available/categories/295 200 744 - 772.624 ms[39m
+2025-09-12 13:04:13:413 [35mhttp[39m: [35mPOST /api/v1/customer/select/drivers/295 200 70 - 74.774 ms[39m
+2025-09-12 13:04:26:426 [35mhttp[39m: [35mPOST /api/v1/driver/rides/request/295/accept 200 70 - 90.773 ms[39m
+2025-09-12 13:04:55:455 [35mhttp[39m: [35mPOST /proxypay/initialize/295 404 163 - 3.008 ms[39m
+2025-09-12 13:05:44:544 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:05:44:544 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:05:44:544 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:05:49:549 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:05:54:554 [35mhttp[39m: [35mPOST /proxypay/initialize/295 404 163 - 5.228 ms[39m
+2025-09-12 13:06:46:646 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:06:46:646 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:06:46:646 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:06:51:651 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:06:55:655 [35mhttp[39m: [35mPOST /payments/proxypay/initialize/295 404 172 - 4.702 ms[39m
+2025-09-12 13:07:47:747 [31merror[39m: [31mamount is required. currency is required. type is required[39m
+2025-09-12 13:07:47:747 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 422 89 - 62.794 ms[39m
+2025-09-12 13:23:55:2355 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:23:55:2355 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:23:55:2355 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:24:00:240 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:24:23:2423 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:24:23:2423 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:24:23:2423 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:24:28:2428 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:24:30:2430 [31merror[39m: [31mamount is required. currency is required. type is required[39m
+2025-09-12 13:24:30:2430 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 422 89 - 26.471 ms[39m
+2025-09-12 13:25:33:2533 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:25:33:2533 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:25:33:2533 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:25:38:2538 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:25:41:2541 [31merror[39m: [31mamount is required. currency is required. type is required[39m
+2025-09-12 13:25:41:2541 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 422 89 - 39.799 ms[39m
+2025-09-12 13:26:22:2622 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:26:22:2622 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:26:22:2622 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:26:27:2627 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:27:36:2736 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 13:27:36:2736 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 13:27:36:2736 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 13:27:41:2741 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 13:27:44:2744 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757663864000CGO0QH[39m
+2025-09-12 13:27:44:2744 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 13:27:44:2744 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 13:27:44:2744 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 13:27:44:2744 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 1032.819 ms[39m
+2025-09-12 14:08:25:825 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:08:25:825 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:08:25:825 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:08:30:830 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:08:35:835 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757666315217WTH762[39m
+2025-09-12 14:08:36:836 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:08:36:836 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:08:36:836 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:08:36:836 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 904.962 ms[39m
+2025-09-12 14:12:58:1258 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:12:58:1258 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:12:58:1258 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:13:03:133 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:13:06:136 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757666586373SXK7LB[39m
+2025-09-12 14:13:07:137 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:13:07:137 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:13:07:137 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:13:07:137 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 889.088 ms[39m
+2025-09-12 14:15:59:1559 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:15:59:1559 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:15:59:1559 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:16:04:164 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:16:58:1658 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE17576668188100U4IK5[39m
+2025-09-12 14:16:59:1659 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:16:59:1659 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:16:59:1659 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:16:59:1659 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 1012.521 ms[39m
+2025-09-12 14:20:54:2054 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:20:54:2054 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:20:54:2054 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:20:59:2059 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:21:04:214 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE17576670644001YYYKH[39m
+2025-09-12 14:21:05:215 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:21:05:215 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:21:05:215 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:21:05:215 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 925.170 ms[39m
+2025-09-12 14:24:49:2449 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:24:49:2449 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:24:49:2449 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:24:54:2454 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:25:05:255 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757667305766P0YIXS[39m
+2025-09-12 14:25:06:256 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:25:06:256 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:25:06:256 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:25:06:256 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 942.733 ms[39m
+2025-09-12 14:27:02:272 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:27:02:272 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:27:02:272 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:27:07:277 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:29:34:2934 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:29:34:2934 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:29:34:2934 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:29:38:2938 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:29:43:2943 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757667583483G4GP74[39m
+2025-09-12 14:29:44:2944 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 401[39m
+2025-09-12 14:29:44:2944 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 401[39m
+2025-09-12 14:29:44:2944 [31merror[39m: [31mError: Request failed with status code 401[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:29:44:2944 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 927.032 ms[39m
+2025-09-12 14:51:32:5132 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 14:51:32:5132 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 14:51:32:5132 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 14:51:37:5137 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 14:59:23:5923 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE17576693633282BTVKW[39m
+2025-09-12 14:59:24:5924 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 14:59:24:5924 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 14:59:24:5924 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 14:59:24:5924 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 842.733 ms[39m
+2025-09-12 15:02:51:251 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 15:02:51:251 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 15:02:51:251 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 15:02:56:256 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 15:03:31:331 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 15:03:31:331 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 15:03:31:331 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 15:03:36:336 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 15:04:40:440 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 15:04:40:440 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 15:04:40:440 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 15:04:45:445 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 15:06:55:655 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757669815536V4VZ0S[39m
+2025-09-12 15:06:56:656 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:06:56:656 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:06:56:656 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:06:56:656 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 869.810 ms[39m
+2025-09-12 15:11:39:1139 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 15:11:39:1139 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 15:11:39:1139 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 15:11:44:1144 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 15:11:56:1156 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757670116915Z4COYO[39m
+2025-09-12 15:11:57:1157 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:11:57:1157 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:11:57:1157 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:11:57:1157 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 932.196 ms[39m
+2025-09-12 15:29:05:295 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757671145891ZWC09S[39m
+2025-09-12 15:29:06:296 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:29:06:296 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:29:06:296 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:29:06:296 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 584.620 ms[39m
+2025-09-12 15:29:39:2939 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 15:29:39:2939 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 15:29:39:2939 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 15:29:44:2944 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 15:29:46:2946 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE1757671186005FX6XP0[39m
+2025-09-12 15:29:47:2947 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:29:47:2947 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:29:47:2947 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:29:47:2947 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 1141.935 ms[39m
+2025-09-12 15:38:44:3844 [32minfo[39m: [32mInitializing ProxyPay payment for reference: RIDE175767172425949EFMO[39m
+2025-09-12 15:38:44:3844 [31merror[39m: [31mError initializing ProxyPay payment: AxiosError: Request failed with status code 404[39m
+2025-09-12 15:38:44:3844 [31merror[39m: [31mError initializing ProxyPay payment: Error: Request failed with status code 404[39m
+2025-09-12 15:38:44:3844 [31merror[39m: [31mError: Request failed with status code 404[39m
+[31m    at PaymentService.<anonymous> (/home/tech-real/kenil-Work/PiuPiu-Backend/src/services/users/payment.service.ts:56:15)[39m
+[31m    at Generator.next (<anonymous>)[39m
+[31m    at fulfilled (/home/tech-real/kenil-Work/PiuPiu-Backend/dest/cjs/services/users/payment.service.js:5:58)[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+2025-09-12 15:38:44:3844 [35mhttp[39m: [35mPOST /api/v1/payments/proxypay/initialize/295 500 66 - 654.224 ms[39m
+2025-09-12 16:07:30:730 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 16:07:30:730 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 16:07:30:730 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 16:07:35:735 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 16:10:17:1017 [35mhttp[39m: [35mGET /api/v1/admin/careers 200 5742 - 102.701 ms[39m
+2025-09-12 16:10:36:1036 [35mhttp[39m: [35mGET /api/v1/admin/careers/applications 200 2533 - 45.446 ms[39m
+2025-09-12 16:24:47:2447 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 16:24:47:2447 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 16:24:47:2447 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 16:24:52:2452 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 16:27:04:274 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 16:27:04:274 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 16:27:04:274 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 16:27:09:279 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 16:57:39:5739 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 16:57:39:5739 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 16:57:39:5739 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 16:57:44:5744 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 17:00:04:04 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 17:00:04:04 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 17:00:28:028 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 17:00:28:028 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 17:00:28:028 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 17:00:33:033 [32minfo[39m: [32mServer is running on port 3000[39m
+2025-09-12 17:06:26:626 [32minfo[39m: [32mDatabase piupiu created or already exists.[39m
+2025-09-12 17:06:26:626 [32minfo[39m: [32mConnection established to the "PiuPiu" database.[39m
+2025-09-12 17:06:26:626 [32minfo[39m: [32mApp data initialized[39m
+2025-09-12 17:06:31:631 [32minfo[39m: [32mServer is running on port 3000[39m

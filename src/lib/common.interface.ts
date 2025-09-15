@@ -1,0 +1,198 @@
+import { MulterError } from 'multer';
+import { IAdminUser } from '../models/admin.model';
+import { IUser } from '../models/users.model'; // Assuming you have a Sequelize User model defined
+import { Request } from 'express';
+
+export interface ISearch {
+  page?: number;
+  limit?: number;
+  pinCode?: string;
+  region?: string;
+  status?: string;
+  businessCategory?: string;
+  type?: string;
+  required?: string;
+  vehicleType?: string;
+  search?: string;
+  code?: string;
+  name?: string;
+  isRead?: string;
+  referral_code?: string;
+  startDate?: string;
+  endDate?: string;
+  year?: number;
+  month?: number;
+  method?: string;
+  location?: string;
+  radius?: number;
+  category?: string;
+}
+
+// Define the interface for the request body
+interface IRequest extends Request {
+  user: IUser;
+  userId: number;
+  admin: IAdminUser; // Assuming IUser is the Sequelize model instance for users
+  token: string;
+  file: Express.Multer.File;
+  fileValidationError?: MulterError;
+  files: {
+    [key: string]: Express.Multer.File[];
+  };
+  documentsDetails: {
+    title: string;
+    key: string;
+    maxFileCounts: number;
+    maxSize: number;
+    description?: string;
+  }[];
+  params: {
+    // Define the parameters as per Sequelize models
+    role: string;
+    user_id: string; // Assuming user_id is a string in your Sequelize model
+    ride_id: string;
+    vehicle_id: string;
+    referral_id: string;
+    business_id: string;
+    contactmessage_id: string;
+    type: string;
+    currency_id: string;
+    price_id: string;
+    category_id: string;
+    address_id: string;
+    pincode_id: string;
+    pincode: string;
+    languages_id: string;
+    type_id: string;
+    documents_id: string;
+    faqs_id: string;
+    dropoff_id: string;
+    id: string;
+    city_id: string;
+    contactus_id: string;
+    driver_id: string;
+    testimonial_id: string;
+    notify_id: string;
+    careers_id: string;
+    blog_id: string;
+    feedback_id: string;
+    coupon_id: string;
+    bankAccounts_id: string;
+    cashoutRequest_id: string;
+    weeklystatement_id: string;
+    reference: string;
+  };
+  body: {
+    // Define the body properties as per Sequelize models
+    accessToken: string;
+    image: string;
+    status: string;
+    content: string;
+    otp: string;
+    name: string;
+    email: string;
+    country_code: string;
+    phone_number: string;
+    password: string;
+    profile_picture?: string;
+    full_name: string;
+    referral_code: string;
+    mpin: string;
+    role: string;
+    identity_proof_type: string;
+    identity_proof_file: string;
+    businessName: string;
+    category: string;
+    product_category: string;
+    businessAddress: string;
+    country: string;
+    isBusinessRegistered: string;
+    registerNumber: string;
+    scheduledDate?: string;
+    scheduledTime?: string;
+    deliveryTime: string;
+    pickupVehicle: string;
+    itemType: string;
+    numberOfItems: string;
+    weightOfItem: string;
+    parcelSize: string;
+    describeItem: string;
+    pickUpPointPersonName: string;
+    pickUpPointPhoneNumber: string;
+    pickUpPointPincode: string;
+    pickUpPointCity: string;
+    pickUpPointAddress: string;
+    deliveryPointPersonName: string;
+    deliveryPointPhoneNumber: string;
+    deliveryPointPincode: string;
+    deliveryPointCity: string;
+    deliveryPointAddress: string;
+    indicateDropoffLocation: string;
+    handoverToMe: boolean;
+    total_amount: string;
+    deliveryType: string;
+    type: number | string;
+    vehicle_platenumber: string;
+    vehicle_model: string;
+    vehicle_color: string;
+    documents: {
+      title: string;
+      name: string;
+      url: string[];
+      status: 'pending' | 'approved' | 'rejected';
+      reason: string | undefined;
+    }[];
+    driverIds: number[];
+    vehicle_image: string;
+    lat: number;
+    long: number;
+    user_id: number;
+    contact_name: string;
+    isoCode: string;
+    id: number;
+    relationship: string;
+    amount: number;
+    // type: string;
+    currency: string;
+    paymentMethod: string;
+    purpose: string;
+    // Add any other properties if needed
+  };
+}
+
+// Define an extended interface for mixed values in the body
+interface IRequestMixedValues extends IRequest {
+  body: IRequest['body'] & {
+    [key: string]: string | boolean | string[]; // Adjust the index signature accordingly
+  };
+}
+
+// Define the interface for an address
+interface Address {
+  personName: string;
+  phoneNumber: string;
+  pincode: string;
+  city: string;
+  address: string;
+}
+
+// Define the arguments for adding an order
+interface AddOrderArgs {
+  scheduledDate: string;
+  describeItem: string;
+  scheduledTime: string;
+  deliveryTime: string;
+  pickupVehicle: string;
+  itemType: string;
+  numberOfItems: string;
+  weightOfItem: string;
+  parcelSize: string;
+  pickUpPoint: Address;
+  deliveryPoint: Address;
+  handoverToMe: boolean;
+  total_amount: string;
+  deliveryType: string;
+  indicateDropoffLocation: string;
+}
+
+export { IRequest, IRequestMixedValues, Address, AddOrderArgs };
